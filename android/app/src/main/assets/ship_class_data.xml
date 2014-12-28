@@ -1097,7 +1097,7 @@
             <FrontArc>180</FrontArc>
         </ShipClassDetail>
         <ShipClassDetail>
-            <Name>Galaxy Class (MU)</Name>
+            <Name>Galaxy Class (Mirror)</Name>
             <Id>galaxy__class_mu</Id>
             <Maneuvers>
                 <Maneuver color="red" kind="straight" speed="6" />

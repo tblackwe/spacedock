@@ -13,9 +13,9 @@
             <Cost>5</Cost>
             <Id>james_t_kirk_71523</Id>
             <Releases>
-                <Release>71523</Release>
+                <Release>R71523</Release>
             </Releases>
-            <SkillModifier>2</SkillModifier>
+            <Skill>2</Skill>
         </Admiral>
         <Admiral>
             <Title>Gul Dukat</Title>
@@ -30,25 +30,24 @@
             <Cost>5</Cost>
             <Id>gul_dukat_71524</Id>
             <Releases>
-                <Release>71524</Release>
+                <Release>R71524</Release>
             </Releases>
-            <SkillModifier>1</SkillModifier>
+            <Skill>1</Skill>
         </Admiral>
         <Admiral>
             <Title>Maxwell Forrest</Title>
             <Ability>FLEET ACTION: Perform an additional 1 Maneuver (straight, bank or turn).
             </Ability>
             <Unique>PRIME</Unique>
-            <Skill>4</Skill>
             <Factions>
                 <Faction>Federation</Faction>
             </Factions>
             <Cost>3</Cost>
             <Id>maxwell_forrest_71526</Id>
             <Releases>
-                <Release>71526</Release>
+                <Release>R71526</Release>
             </Releases>
-            <SkillModifier>1</SkillModifier>
+            <Skill>1</Skill>
         </Admiral>
         <Admiral>
             <Title>V'Las</Title>
@@ -57,7 +56,6 @@
                 the target ship.
             </Ability>
             <Unique>PRIME</Unique>
-            <Skill>5</Skill>
             <Talent>1</Talent>
             <Factions>
                 <Faction>Vulcan</Faction>
@@ -65,9 +63,9 @@
             <Cost>3</Cost>
             <Id>v_las_71527</Id>
             <Releases>
-                <Release>71527</Release>
+                <Release>R71527</Release>
             </Releases>
-            <SkillModifier>1</SkillModifier>
+            <Skill>1</Skill>
         </Admiral>
         <Admiral>
             <Title>Borg Queen</Title>
@@ -84,9 +82,9 @@
             <Cost>5</Cost>
             <Id>borg_queen_71530</Id>
             <Releases>
-                <Release>71530</Release>
+                <Release>R71530</Release>
             </Releases>
-            <SkillModifier>2</SkillModifier>
+            <Skill>2</Skill>
         </Admiral>
         <Admiral>
             <Title>Matthew Dougherty</Title>
@@ -101,9 +99,9 @@
             <Cost>3</Cost>
             <Id>matthew_dougherty_71531</Id>
             <Releases>
-                <Release>71531</Release>
+                <Release>R71531</Release>
             </Releases>
-            <SkillModifier>1</SkillModifier>
+            <Skill>1</Skill>
         </Admiral>
         <Admiral>
             <Title>Gorkon</Title>
@@ -118,9 +116,9 @@
             <Cost>3</Cost>
             <Id>gorkon_71532</Id>
             <Releases>
-                <Release>71532</Release>
+                <Release>R71532</Release>
             </Releases>
-            <SkillModifier>1</SkillModifier>
+            <Skill>1</Skill>
         </Admiral>
         <Admiral>
             <Title>Hiren</Title>
@@ -134,9 +132,9 @@
             <Cost>1</Cost>
             <Id>hiren_71533</Id>
             <Releases>
-                <Release>71533</Release>
+                <Release>R71533</Release>
             </Releases>
-            <SkillModifier>1</SkillModifier>
+            <Skill>1</Skill>
         </Admiral>
         <Admiral>
             <Title>Worf</Title>
@@ -148,14 +146,14 @@
             <Unique>MIRROR</Unique>
             <Talent>1</Talent>
             <Factions>
-                <Faction>Mirror Universe</Faction>
+                <Faction>Mirror</Faction>
             </Factions>
             <Cost>2</Cost>
             <Id>worf_71535</Id>
             <Releases>
-                <Release>71535</Release>
+                <Release>R71535</Release>
             </Releases>
-            <SkillModifier>0</SkillModifier>
+            <Skill>0</Skill>
         </Admiral>
     </admiralList>
 </Admirals>

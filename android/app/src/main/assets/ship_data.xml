@@ -24,7 +24,9 @@
             <Weapon>2</Weapon>
             <Crew>3</Crew>
             <Id>1001</Id>
-            <Release>71120</Release>
+            <Releases>
+                <Release>R71120</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -46,7 +48,9 @@
             <Weapon>1</Weapon>
             <Crew>3</Crew>
             <Id>1002</Id>
-            <Release>71120</Release>
+            <Releases>
+                <Release>R71120</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Khazara</Title>
@@ -71,7 +75,9 @@
             <Weapon>1</Weapon>
             <Crew>3</Crew>
             <Id>1003</Id>
-            <Release>71120</Release>
+            <Releases>
+                <Release>R71120</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -94,7 +100,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1004</Id>
-            <Release>71120</Release>
+            <Releases>
+                <Release>R71120</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Maht-H'A</Title>
@@ -119,7 +127,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1005</Id>
-            <Release>71120</Release>
+            <Releases>
+                <Release>R71120</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Starship</Title>
@@ -142,7 +152,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1006</Id>
-            <Release>71120</Release>
+            <Releases>
+                <Release>R71120</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Reliant</Title>
@@ -166,7 +178,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1007</Id>
-            <Release>71121</Release>
+            <Releases>
+                <Release>R71121</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -188,7 +202,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1008</Id>
-            <Release>71121</Release>
+            <Releases>
+                <Release>R71121</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Enterprise</Title>
@@ -214,7 +230,9 @@
             <Weapon>1</Weapon>
             <Crew>4</Crew>
             <Id>1009</Id>
-            <Release>71122</Release>
+            <Releases>
+                <Release>R71122</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -236,7 +254,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1010</Id>
-            <Release>71122</Release>
+            <Releases>
+                <Release>R71122</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Valdore</Title>
@@ -262,7 +282,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>1011</Id>
-            <Release>71123</Release>
+            <Releases>
+                <Release>R71123</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -284,7 +306,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1012</Id>
-            <Release>71123</Release>
+            <Releases>
+                <Release>R71123</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>R.I.S. Apnex</Title>
@@ -310,7 +334,9 @@
             <Tech>1</Tech>
             <Crew>2</Crew>
             <Id>1013</Id>
-            <Release>71124</Release>
+            <Releases>
+                <Release>R71124</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Science Vessel</Title>
@@ -331,7 +357,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>1014</Id>
-            <Release>71124</Release>
+            <Releases>
+                <Release>R71124</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Gr'oth</Title>
@@ -354,7 +382,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1015</Id>
-            <Release>71125</Release>
+            <Releases>
+                <Release>R71125</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Battlecruiser</Title>
@@ -379,7 +409,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1016</Id>
-            <Release>71125</Release>
+            <Releases>
+                <Release>R71125</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Negh'var</Title>
@@ -407,7 +439,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1017</Id>
-            <Release>71126</Release>
+            <Releases>
+                <Release>R71126</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Starship</Title>
@@ -430,7 +464,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1018</Id>
-            <Release>71126</Release>
+            <Releases>
+                <Release>R71126</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Kraxon</Title>
@@ -456,7 +492,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1019</Id>
-            <Release>71127</Release>
+            <Releases>
+                <Release>R71127</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Dominion Starship</Title>
@@ -478,7 +516,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1020</Id>
-            <Release>71127</Release>
+            <Releases>
+                <Release>R71127</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Gor Portas</Title>
@@ -503,7 +543,9 @@
             <Weapon>4</Weapon>
             <Crew>1</Crew>
             <Id>1021</Id>
-            <Release>71128</Release>
+            <Releases>
+                <Release>R71128</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Dominion Starship</Title>
@@ -524,7 +566,9 @@
             <Weapon>3</Weapon>
             <Crew>1</Crew>
             <Id>1022</Id>
-            <Release>71128</Release>
+            <Releases>
+                <Release>R71128</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Krayton</Title>
@@ -550,7 +594,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1023</Id>
-            <Release>OP1Prize</Release>
+            <Releases>
+                <Release>OP1PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Ferengi Marauder</Title>
@@ -572,7 +618,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1024</Id>
-            <Release>OP1Prize</Release>
+            <Releases>
+                <Release>OP1PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Deep Space 9</Title>
@@ -596,7 +644,9 @@
             <Weapon>3</Weapon>
             <Crew>3</Crew>
             <Id>1025</Id>
-            <Release>OP1Participation</Release>
+            <Releases>
+                <Release>OP1PARTICIPATION</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Abandoned Space Station</Title>
@@ -617,7 +667,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>1027</Id>
-            <Release>OP1Participation</Release>
+            <Releases>
+                <Release>OP1PARTICIPATION</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Ch'tang</Title>
@@ -644,7 +696,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1028</Id>
-            <Release>OP2Prize</Release>
+            <Releases>
+                <Release>OP2PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Starship</Title>
@@ -666,7 +720,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1029</Id>
-            <Release>OP2Prize</Release>
+            <Releases>
+                <Release>OP2PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>P.W.B. Aj'Rmr</Title>
@@ -693,7 +749,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>1042</Id>
-            <Release>OP3Prize</Release>
+            <Releases>
+                <Release>OP3PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -716,7 +774,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1043</Id>
-            <Release>OP3Prize</Release>
+            <Releases>
+                <Release>OP3PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Defiant</Title>
@@ -743,7 +803,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>1030</Id>
-            <Release>71268</Release>
+            <Releases>
+                <Release>R71268</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -766,7 +828,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1031</Id>
-            <Release>71268</Release>
+            <Releases>
+                <Release>R71268</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Kronos One</Title>
@@ -790,7 +854,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>1032</Id>
-            <Release>71269</Release>
+            <Releases>
+                <Release>R71269</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Starship</Title>
@@ -812,7 +878,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1033</Id>
-            <Release>71269</Release>
+            <Releases>
+                <Release>R71269</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Praetus</Title>
@@ -839,7 +907,9 @@
             <Tech>2</Tech>
             <Weapon>1</Weapon>
             <Id>1034</Id>
-            <Release>71270</Release>
+            <Releases>
+                <Release>R71270</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -858,7 +928,9 @@
             </Actions>
             <Tech>1</Tech>
             <Id>1035</Id>
-            <Release>71270</Release>
+            <Releases>
+                <Release>R71270</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>5th Wing Patrol Ship</Title>
@@ -885,7 +957,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1036</Id>
-            <Release>71271</Release>
+            <Releases>
+                <Release>R71271</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Dominion Starship</Title>
@@ -908,7 +982,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1037</Id>
-            <Release>71271</Release>
+            <Releases>
+                <Release>R71271</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Koraga</Title>
@@ -933,7 +1009,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1038</Id>
-            <Release>71273</Release>
+            <Releases>
+                <Release>R71273</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Starship</Title>
@@ -956,7 +1034,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1039</Id>
-            <Release>71273</Release>
+            <Releases>
+                <Release>R71273</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Koranak</Title>
@@ -983,7 +1063,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>1040</Id>
-            <Release>71275</Release>
+            <Releases>
+                <Release>R71275</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Cardassian Keldon</Title>
@@ -1006,7 +1088,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>1041</Id>
-            <Release>71275</Release>
+            <Releases>
+                <Release>R71275</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Excelsior</Title>
@@ -1033,7 +1117,9 @@
             <Weapon>1</Weapon>
             <Crew>3</Crew>
             <Id>1044</Id>
-            <Release>71272</Release>
+            <Releases>
+                <Release>R71272</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -1056,7 +1142,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1045</Id>
-            <Release>71272</Release>
+            <Releases>
+                <Release>R71272</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>R.I.S. Vo</Title>
@@ -1082,7 +1170,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>1046</Id>
-            <Release>71274</Release>
+            <Releases>
+                <Release>R71274</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -1103,7 +1193,9 @@
             </Actions>
             <Tech>1</Tech>
             <Id>1047</Id>
-            <Release>71274</Release>
+            <Releases>
+                <Release>R71274</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Sutherland</Title>
@@ -1130,7 +1222,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>1048</Id>
-            <Release>OP4Prize</Release>
+            <Releases>
+                <Release>OP4PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -1153,7 +1247,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>1049</Id>
-            <Release>OP4Prize</Release>
+            <Releases>
+                <Release>OP4PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Rav Laerst</Title>
@@ -1179,7 +1275,9 @@
             <Weapon>3</Weapon>
             <Crew>1</Crew>
             <Id>rav_laerst_op5prize</Id>
-            <Release>OP5Prize</Release>
+            <Releases>
+                <Release>OP5PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Dominion Starship</Title>
@@ -1201,7 +1299,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>dominion_starship_op5prize</Id>
-            <Release>OP5Prize</Release>
+            <Releases>
+                <Release>OP5PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Equinox</Title>
@@ -1225,7 +1325,9 @@
                 <Action>Battlestations</Action>
             </Actions>
             <Id>u_s_s_equinox_71276</Id>
-            <Release>71276</Release>
+            <Releases>
+                <Release>R71276</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -1248,7 +1350,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>federation_starship_71276</Id>
-            <Release>71276</Release>
+            <Releases>
+                <Release>R71276</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. Somraw</Title>
@@ -1274,7 +1378,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>i_k_s_somraw_71448</Id>
-            <Release>71448</Release>
+            <Releases>
+                <Release>R71448</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Klingon Starship</Title>
@@ -1295,7 +1401,9 @@
             <Tech>1</Tech>
             <Weapon>1</Weapon>
             <Id>klingon_starship_71448</Id>
-            <Release>71448</Release>
+            <Releases>
+                <Release>R71448</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Gal Gath`thong</Title>
@@ -1321,7 +1429,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>i_r_w_gal_gath_thong_71278</Id>
-            <Release>71278</Release>
+            <Releases>
+                <Release>R71278</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -1343,7 +1453,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>romulan_starship_71278</Id>
-            <Release>71278</Release>
+            <Releases>
+                <Release>R71278</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>4th Division Battleship</Title>
@@ -1369,7 +1481,9 @@
             <Weapon>3</Weapon>
             <Crew>2</Crew>
             <Id>4th_division_battleship_71279</Id>
-            <Release>71279</Release>
+            <Releases>
+                <Release>R71279</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Dominion Starship</Title>
@@ -1391,7 +1505,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>dominion_starship_71279</Id>
-            <Release>71279</Release>
+            <Releases>
+                <Release>R71279</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Akorem</Title>
@@ -1416,7 +1532,9 @@
             </Actions>
             <Crew>2</Crew>
             <Id>akorem_op6prize</Id>
-            <Release>OP6Prize</Release>
+            <Releases>
+                <Release>OP6PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Bajoran Starship</Title>
@@ -1437,7 +1555,9 @@
             </Actions>
             <Crew>1</Crew>
             <Id>bajoran_starship_op6prize</Id>
-            <Release>OP6Prize</Release>
+            <Releases>
+                <Release>OP6PRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Attack Fighter</Title>
@@ -1460,7 +1580,9 @@
             </Actions>
             <CaptainEligible>false</CaptainEligible>
             <Id>federation_attack_fighter_op6prize</Id>
-            <Release>OP6Participation</Release>
+            <Releases>
+                <Release>OP6PARTICIPATION</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Hideki Class Attack Fighter</Title>
@@ -1483,7 +1605,9 @@
             </Actions>
             <CaptainEligible>false</CaptainEligible>
             <Id>hideki_class_attack_fighter_op5prize</Id>
-            <Release>OP5Participation</Release>
+            <Releases>
+                <Release>OP5PARTICIPATION</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Sphere 4270</Title>
@@ -1511,7 +1635,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>borg_sphere_4270_71283</Id>
-            <Release>71283</Release>
+            <Releases>
+                <Release>R71283</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Starship</Title>
@@ -1533,7 +1659,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>borg_sphere_71283</Id>
-            <Release>71283</Release>
+            <Releases>
+                <Release>R71283</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Voyager</Title>
@@ -1561,7 +1689,9 @@
             <Weapon>1</Weapon>
             <Crew>3</Crew>
             <Id>u_s_s_voyager_71280</Id>
-            <Release>71280</Release>
+            <Releases>
+                <Release>R71280</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -1584,7 +1714,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>federation_starship_71280</Id>
-            <Release>71280</Release>
+            <Releases>
+                <Release>R71280</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Nistrim Raider</Title>
@@ -1610,7 +1742,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>nistrim_raider_71282</Id>
-            <Release>71282</Release>
+            <Releases>
+                <Release>R71282</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Kazon Raider</Title>
@@ -1631,7 +1765,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>kazon_raider_71282</Id>
-            <Release>71282</Release>
+            <Releases>
+                <Release>R71282</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Bioship Alpha</Title>
@@ -1657,7 +1793,9 @@
             <Tech>3</Tech>
             <Weapon>2</Weapon>
             <Id>bioship_alpha_71281</Id>
-            <Release>71281</Release>
+            <Releases>
+                <Release>R71281</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Species 8472 Starship</Title>
@@ -1679,7 +1817,9 @@
             <Tech>3</Tech>
             <Weapon>1</Weapon>
             <Id>species_8472_bioship_71281</Id>
-            <Release>71281</Release>
+            <Releases>
+                <Release>R71281</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Tholia One</Title>
@@ -1703,7 +1843,9 @@
             </Actions>
             <Weapon>2</Weapon>
             <Id>tholia_one_opwebprize</Id>
-            <Release>OPWebPrize</Release>
+            <Releases>
+                <Release>OPWEBPRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Tholian Starship</Title>
@@ -1723,7 +1865,9 @@
             </Actions>
             <Weapon>1</Weapon>
             <Id>tholian_vessel_opwebprize</Id>
-            <Release>OPWebPrize</Release>
+            <Releases>
+                <Release>OPWEBPRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>D'Kyr</Title>
@@ -1750,7 +1894,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>d_kyr_71446</Id>
-            <Release>71446</Release>
+            <Releases>
+                <Release>R71446</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Interceptor 5</Title>
@@ -1777,7 +1923,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>interceptor_5_71445</Id>
-            <Release>71445</Release>
+            <Releases>
+                <Release>R71445</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Tactical Cube 138</Title>
@@ -1803,7 +1951,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>tactical_cube_138_71444</Id>
-            <Release>71444</Release>
+            <Releases>
+                <Release>R71444</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Tactical Cube</Title>
@@ -1826,7 +1976,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>borg_tactical_cube_71444</Id>
-            <Release>71444</Release>
+            <Releases>
+                <Release>R71444</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Bajoran Interceptor</Title>
@@ -1847,7 +1999,9 @@
             <Tech>1</Tech>
             <Weapon>1</Weapon>
             <Id>bajoran_interceptor_71445</Id>
-            <Release>71445</Release>
+            <Releases>
+                <Release>R71445</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>D'Kyr Class</Title>
@@ -1870,7 +2024,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>d_kyr_class_71446</Id>
-            <Release>71446</Release>
+            <Releases>
+                <Release>R71446</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>S'Gorn</Title>
@@ -1897,7 +2053,9 @@
             <Tech>2</Tech>
             <Crew>1</Crew>
             <Id>s_gorn_oparenaprize</Id>
-            <Release>OPArenaPrize</Release>
+            <Releases>
+                <Release>OPARENAPRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Gorn Starship</Title>
@@ -1919,7 +2077,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>gorn_starship_oparenaprize</Id>
-            <Release>OPArenaPrize</Release>
+            <Releases>
+                <Release>OPARENAPRIZE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.K.S. B'Moth</Title>
@@ -1946,7 +2106,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>i_k_s_b_moth_i_k_s_b_moth</Id>
-            <Release>i_k_s_b_moth</Release>
+            <Releases>
+                <Release>I_K_S_B_MOTH</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>K'T'Inga Class</Title>
@@ -1969,7 +2131,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>k_t_inga_class_i_k_s_b_moth</Id>
-            <Release>i_k_s_b_moth</Release>
+            <Releases>
+                <Release>I_K_S_B_MOTH</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Gavroche</Title>
@@ -1995,7 +2159,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>gavroche_gavroche</Id>
-            <Release>gavroche</Release>
+            <Releases>
+                <Release>GAVROCHE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Maquis Starship</Title>
@@ -2017,7 +2183,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>maquis_starship_gavroche</Id>
-            <Release>gavroche</Release>
+            <Releases>
+                <Release>GAVROCHE</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Vorta Vor</Title>
@@ -2044,7 +2212,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>i_r_w_vorta_vor_i_r_w_vorta_vor</Id>
-            <Release>i_r_w_vorta_vor</Release>
+            <Releases>
+                <Release>I_R_W_VORTA_VOR</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Bird of Prey Class</Title>
@@ -2067,7 +2237,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>romulan_bird_of_prey_class_i_r_w_vorta_vor</Id>
-            <Release>i_r_w_vorta_vor</Release>
+            <Releases>
+                <Release>I_R_W_VORTA_VOR</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>3rd Wing Attack Ship</Title>
@@ -2095,7 +2267,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>3rd_wing_attack_ship_3rd_wing_attack_ship</Id>
-            <Release>3rd_wing_attack_ship</Release>
+            <Releases>
+                <Release>R3RD_WING_ATTACK_SHIP</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Jem'Hadar Attack Ship</Title>
@@ -2118,7 +2292,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>jem_hadar_attack_ship_3rd_wing_attack_ship</Id>
-            <Release>3rd_wing_attack_ship</Release>
+            <Releases>
+                <Release>R3RD_WING_ATTACK_SHIP</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Yeager</Title>
@@ -2144,7 +2320,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>u_s_s_yaeger_u_s_s_yaeger</Id>
-            <Release>u_s_s_yaeger</Release>
+            <Releases>
+                <Release>U_S_S_YAEGER</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -2166,7 +2344,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>federation_starship_u_s_s_yaeger</Id>
-            <Release>u_s_s_yaeger</Release>
+            <Releases>
+                <Release>U_S_S_YAEGER</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Enterprise</Title>
@@ -2193,7 +2373,9 @@
             <Weapon>1</Weapon>
             <Crew>4</Crew>
             <Id>u_s_s_enterprise_71523</Id>
-            <Release>71523</Release>
+            <Releases>
+                <Release>R71523</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -2215,7 +2397,9 @@
             <Weapon>1</Weapon>
             <Crew>3</Crew>
             <Id>federation_starship_71523</Id>
-            <Release>71523</Release>
+            <Releases>
+                <Release>R71523</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Soong</Title>
@@ -2243,7 +2427,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>soong_71522</Id>
-            <Release>71522</Release>
+            <Releases>
+                <Release>R71522</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Starship</Title>
@@ -2266,7 +2452,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>borg_starship_71522</Id>
-            <Release>71522</Release>
+            <Releases>
+                <Release>R71522</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>2nd Division Cruiser</Title>
@@ -2293,7 +2481,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>2nd_division_cruiser_71524</Id>
-            <Release>71524</Release>
+            <Releases>
+                <Release>R71524</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Dominion Starship</Title>
@@ -2316,7 +2506,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>dominion_starship_71524</Id>
-            <Release>71524</Release>
+            <Releases>
+                <Release>R71524</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Ti'Mur</Title>
@@ -2342,7 +2534,9 @@
             <Tech>2</Tech>
             <Crew>1</Crew>
             <Id>ti_mur_71508</Id>
-            <Release>71508</Release>
+            <Releases>
+                <Release>R71508</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Vulcan Starship</Title>
@@ -2364,7 +2558,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>vulcan_starship_71508</Id>
-            <Release>71508</Release>
+            <Releases>
+                <Release>R71508</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Raven</Title>
@@ -2388,7 +2584,9 @@
             <Tech>2</Tech>
             <Crew>1</Crew>
             <Id>u_s_s_raven_71509</Id>
-            <Release>71509</Release>
+            <Releases>
+                <Release>R71509</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -2407,7 +2605,9 @@
             </Actions>
             <Tech>2</Tech>
             <Id>federation_starship_71509</Id>
-            <Release>71509</Release>
+            <Releases>
+                <Release>R71509</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Enterprise NX-01</Title>
@@ -2433,7 +2633,9 @@
             <Weapon>1</Weapon>
             <Crew>3</Crew>
             <Id>enterprise_nx_01_71526</Id>
-            <Release>71526</Release>
+            <Releases>
+                <Release>R71526</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Ni'Var</Title>
@@ -2459,7 +2661,9 @@
             <Tech>1</Tech>
             <Crew>2</Crew>
             <Id>ni_var_71527</Id>
-            <Release>71527</Release>
+            <Releases>
+                <Release>R71527</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Scout 608</Title>
@@ -2488,7 +2692,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>scout_608_71525</Id>
-            <Release>71525</Release>
+            <Releases>
+                <Release>R71525</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -2510,7 +2716,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>federation_starship_71526</Id>
-            <Release>71526</Release>
+            <Releases>
+                <Release>R71526</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Vulcan Starship</Title>
@@ -2532,7 +2740,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>vulcan_starship_71527</Id>
-            <Release>71527</Release>
+            <Releases>
+                <Release>R71527</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Starship</Title>
@@ -2556,7 +2766,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>borg_starship_71525</Id>
-            <Release>71525</Release>
+            <Releases>
+                <Release>R71525</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Stargazer</Title>
@@ -2583,7 +2795,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>u_s_s_stargazer_71510</Id>
-            <Release>71510</Release>
+            <Releases>
+                <Release>R71510</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -2605,12 +2819,14 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>federation_starship_71510</Id>
-            <Release>71510</Release>
+            <Releases>
+                <Release>R71510</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Enterprise-D</Title>
             <Unique>MIRROR</Unique>
-            <ShipClass>MIRROR_GALAXY</ShipClass>
+            <ShipClass>GALAXY_MIRROR</ShipClass>
             <Factions>
                 <Faction>Mirror</Faction>
             </Factions>
@@ -2631,11 +2847,13 @@
             <Weapon>3</Weapon>
             <Crew>2</Crew>
             <Id>u_s_s_enterprise_d_71510b</Id>
-            <Release>71510b</Release>
+            <Releases>
+                <Release>R71510B</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Mirror Universe Starship</Title>
-            <ShipClass>MIRROR_GALAXY</ShipClass>
+            <ShipClass>GALAXY_MIRROR</ShipClass>
             <Factions>
                 <Faction>Mirror</Faction>
             </Factions>
@@ -2653,12 +2871,14 @@
             <Weapon>3</Weapon>
             <Crew>1</Crew>
             <Id>mirror_universe_starship_71510b</Id>
-            <Release>71510b</Release>
+            <Releases>
+                <Release>R71510B</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Assimilation Target Prime</Title>
             <Unique>MIRROR</Unique>
-            <ShipClass>MIRROR_GALAXY</ShipClass>
+            <ShipClass>GALAXY_MIRROR</ShipClass>
             <Factions>
                 <Faction>Borg</Faction>
                 <Faction>Mirror</Faction>
@@ -2680,11 +2900,13 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>assimilation_target_prime_71510b</Id>
-            <Release>71510b</Release>
+            <Releases>
+                <Release>R71510B</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Mirror Universe/Borg Starship</Title>
-            <ShipClass>MIRROR_GALAXY</ShipClass>
+            <ShipClass>GALAXY_MIRROR</ShipClass>
             <Factions>
                 <Faction>Borg</Faction>
                 <Faction>Mirror</Faction>
@@ -2705,7 +2927,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>mirror_universe_borg_starship_71510b</Id>
-            <Release>71510b</Release>
+            <Releases>
+                <Release>R71510B</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Bok's Marauder</Title>
@@ -2732,7 +2956,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>bok_s_marauder_71646a</Id>
-            <Release>71646a</Release>
+            <Releases>
+                <Release>R71646A</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Ferengi Starship</Title>
@@ -2754,7 +2980,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>ferengi_starship_71646a</Id>
-            <Release>71646a</Release>
+            <Releases>
+                <Release>R71646A</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Mirror Universe Starship</Title>
@@ -2776,7 +3004,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>mirror_universe_starship_71646b</Id>
-            <Release>71646b</Release>
+            <Releases>
+                <Release>R71646B</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Prakesh</Title>
@@ -2802,7 +3032,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>prakesh_71646b</Id>
-            <Release>71646b</Release>
+            <Releases>
+                <Release>R71646B</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Kazon Starship</Title>
@@ -2825,7 +3057,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>kazon_starship_71646c</Id>
-            <Release>71646c</Release>
+            <Releases>
+                <Release>R71646C</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Relora-Sankur</Title>
@@ -2852,7 +3086,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>relora_sankur_71646c</Id>
-            <Release>71646c</Release>
+            <Releases>
+                <Release>R71646C</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Starship</Title>
@@ -2876,7 +3112,9 @@
             <Tech>1</Tech>
             <Crew>1</Crew>
             <Id>borg_starship_71646d</Id>
-            <Release>71646d</Release>
+            <Releases>
+                <Release>R71646D</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Scout 255</Title>
@@ -2905,7 +3143,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>scout_255_71646d</Id>
-            <Release>71646d</Release>
+            <Releases>
+                <Release>R71646D</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Tal'Kir</Title>
@@ -2933,7 +3173,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>tal_kir_71646e</Id>
-            <Release>71646e</Release>
+            <Releases>
+                <Release>R71646E</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Vulcan Starship</Title>
@@ -2956,7 +3198,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>vulcan_starship_71646e</Id>
-            <Release>71646e</Release>
+            <Releases>
+                <Release>R71646E</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Val Jean</Title>
@@ -2983,7 +3227,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>val_jean_71528</Id>
-            <Release>71528</Release>
+            <Releases>
+                <Release>R71528</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Maquis Starship</Title>
@@ -3005,7 +3251,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>maquis_starship_71528</Id>
-            <Release>71528</Release>
+            <Releases>
+                <Release>R71528</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan/Borg Starship</Title>
@@ -3030,7 +3278,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>romulan_borg_starship_71511</Id>
-            <Release>71511</Release>
+            <Releases>
+                <Release>R71511</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Romulan Starship</Title>
@@ -3053,7 +3303,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>romulan_starship_71511</Id>
-            <Release>71511</Release>
+            <Releases>
+                <Release>R71511</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Avatar of Tomed</Title>
@@ -3082,7 +3334,9 @@
             <Weapon>3</Weapon>
             <Crew>1</Crew>
             <Id>i_r_w_avatar_of_tomed_71511</Id>
-            <Release>71511</Release>
+            <Releases>
+                <Release>R71511</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>I.R.W. Avatar of Tomed</Title>
@@ -3109,7 +3363,9 @@
             <Weapon>3</Weapon>
             <Crew>1</Crew>
             <Id>i_r_w_avatar_of_tomed_b_71511</Id>
-            <Release>71511</Release>
+            <Releases>
+                <Release>R71511</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Queen Vessel Prime</Title>
@@ -3137,7 +3393,9 @@
             <Weapon>1</Weapon>
             <Crew>2</Crew>
             <Id>queen_vessel_prime_71530</Id>
-            <Release>71530</Release>
+            <Releases>
+                <Release>R71530</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>U.S.S. Enterprise-E</Title>
@@ -3164,7 +3422,9 @@
             <Weapon>2</Weapon>
             <Crew>2</Crew>
             <Id>u_s_s_enterprise_e_71531</Id>
-            <Release>71531</Release>
+            <Releases>
+                <Release>R71531</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Federation Starship</Title>
@@ -3187,7 +3447,9 @@
             <Weapon>2</Weapon>
             <Crew>1</Crew>
             <Id>federation_starship_71531</Id>
-            <Release>71531</Release>
+            <Releases>
+                <Release>R71531</Release>
+            </Releases>
         </Ship>
         <Ship>
             <Title>Borg Starship</Title>
@@ -3210,7 +3472,9 @@
             <Weapon>1</Weapon>
             <Crew>1</Crew>
             <Id>borg_starship_71530</Id>
-            <Release>71530</Release>
+            <Releases>
+                <Release>R71530</Release>
+            </Releases>
         </Ship>
     </shipList>
 </Ships>

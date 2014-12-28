@@ -2,6 +2,7 @@ package com.funnyhatsoftware.spacedock.v2.model.entity;
 
 import com.funnyhatsoftware.spacedock.v2.model.entity.card.Captain;
 
+import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.ElementList;
 
 import java.util.List;
@@ -12,6 +13,8 @@ import java.util.List;
 public class Captains {
     @ElementList
     private List<Captain> captainList;
+    @Attribute(required=false)
+    private String schemaLocation;
 
     public List<Captain> getCaptainList() {
         return captainList;
@@ -19,6 +22,14 @@ public class Captains {
 
     public void setCaptainList(List<Captain> captainList) {
         this.captainList = captainList;
+    }
+
+    public String getSchemaLocation() {
+        return schemaLocation;
+    }
+
+    public void setSchemaLocation(String schemaLocation) {
+        this.schemaLocation = schemaLocation;
     }
 }
 

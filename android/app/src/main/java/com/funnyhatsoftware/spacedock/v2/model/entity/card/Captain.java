@@ -7,7 +7,11 @@ import org.simpleframework.xml.Element;
  */
 public class Captain extends Card {
     @Element(name = "Ability", required = false)
-    private String ability;
+    private String ability = "";
     @Element(name = "Talent", required = false)
-    private int talent;
+    private int talent = 0;
+    @Element(name = "Skill", required = false)
+    private int skill = 1;
+
+
 }

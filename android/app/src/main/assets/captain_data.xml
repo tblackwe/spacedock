@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Captains>
     <captainList>
         <Captain>
@@ -15,7 +16,7 @@
             <Cost>6</Cost>
             <Id>2001</Id>
             <Releases>
-                <Release>71120</Release>
+                <Release>R71120</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -32,7 +33,7 @@
             <Cost>4</Cost>
             <Id>2002</Id>
             <Releases>
-                <Release>71120</Release>
+                <Release>R71120</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -42,20 +43,20 @@
             </Factions>
             <Id>2003</Id>
             <Releases>
-                <Release>71120</Release>
-                <Release>71121</Release>
-                <Release>71122</Release>
-                <Release>71268</Release>
-                <Release>71272</Release>
-                <Release>71276</Release>
-                <Release>71280</Release>
-                <Release>OP4Prize</Release>
-                <Release>u_s_s_yaeger</Release>
-                <Release>71523</Release>
-                <Release>71509</Release>
-                <Release>71526</Release>
-                <Release>71510</Release>
-                <Release>71531</Release>
+                <Release>R71120</Release>
+                <Release>R71121</Release>
+                <Release>R71122</Release>
+                <Release>R71268</Release>
+                <Release>R71272</Release>
+                <Release>R71276</Release>
+                <Release>R71280</Release>
+                <Release>OP4PRIZE</Release>
+                <Release>U_S_S_YAEGER</Release>
+                <Release>R71523</Release>
+                <Release>R71509</Release>
+                <Release>R71526</Release>
+                <Release>R71510</Release>
+                <Release>R71531</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -71,7 +72,7 @@
             <Cost>3</Cost>
             <Id>2004</Id>
             <Releases>
-                <Release>71120</Release>
+                <Release>R71120</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -81,14 +82,14 @@
             </Factions>
             <Id>2005</Id>
             <Releases>
-                <Release>71120</Release>
-                <Release>71125</Release>
-                <Release>71126</Release>
-                <Release>OP2Prize</Release>
-                <Release>71269</Release>
-                <Release>71273</Release>
-                <Release>71448</Release>
-                <Release>i_k_s_b_moth</Release>
+                <Release>R71120</Release>
+                <Release>R71125</Release>
+                <Release>R71126</Release>
+                <Release>OP2PRIZE</Release>
+                <Release>R71269</Release>
+                <Release>R71273</Release>
+                <Release>R71448</Release>
+                <Release>I_K_S_B_MOTH</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -104,7 +105,7 @@
             <Cost>4</Cost>
             <Id>2006</Id>
             <Releases>
-                <Release>71120</Release>
+                <Release>R71120</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -114,13 +115,13 @@
             </Factions>
             <Id>2007</Id>
             <Releases>
-                <Release>71120</Release>
-                <Release>71123</Release>
-                <Release>71124</Release>
-                <Release>71270</Release>
-                <Release>71278</Release>
-                <Release>OP3Prize</Release>
-                <Release>i_r_w_vorta_vor</Release>
+                <Release>R71120</Release>
+                <Release>R71123</Release>
+                <Release>R71124</Release>
+                <Release>R71270</Release>
+                <Release>R71278</Release>
+                <Release>OP3PRIZE</Release>
+                <Release>I_R_W_VORTA_VOR</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -141,7 +142,7 @@
             </Specials>
             <Id>2008</Id>
             <Releases>
-                <Release>71121</Release>
+                <Release>R71121</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -162,7 +163,7 @@
             </Specials>
             <Id>2009</Id>
             <Releases>
-                <Release>GenCon2013Promo</Release>
+                <Release>GENCON2013PROMO</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -176,7 +177,7 @@
             <Cost>1</Cost>
             <Id>2010</Id>
             <Releases>
-                <Release>71121</Release>
+                <Release>R71121</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -197,7 +198,7 @@
             </Specials>
             <Id>2011</Id>
             <Releases>
-                <Release>71122</Release>
+                <Release>R71122</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -215,7 +216,7 @@
             </Specials>
             <Id>2012</Id>
             <Releases>
-                <Release>71122</Release>
+                <Release>R71122</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -231,7 +232,7 @@
             <Cost>4</Cost>
             <Id>2013</Id>
             <Releases>
-                <Release>71123</Release>
+                <Release>R71123</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -246,7 +247,7 @@
             <Cost>2</Cost>
             <Id>2014</Id>
             <Releases>
-                <Release>71123</Release>
+                <Release>R71123</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -262,7 +263,7 @@
             <Cost>2</Cost>
             <Id>2015</Id>
             <Releases>
-                <Release>71124</Release>
+                <Release>R71124</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -279,7 +280,7 @@
             <Cost>4</Cost>
             <Id>2016</Id>
             <Releases>
-                <Release>71125</Release>
+                <Release>R71125</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -293,7 +294,7 @@
             <Cost>2</Cost>
             <Id>2017</Id>
             <Releases>
-                <Release>71125</Release>
+                <Release>R71125</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -310,7 +311,7 @@
             <Cost>5</Cost>
             <Id>2018</Id>
             <Releases>
-                <Release>71126</Release>
+                <Release>R71126</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -326,7 +327,7 @@
             <Cost>4</Cost>
             <Id>2019</Id>
             <Releases>
-                <Release>71126</Release>
+                <Release>R71126</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -342,7 +343,7 @@
             <Cost>3</Cost>
             <Id>2020</Id>
             <Releases>
-                <Release>71127</Release>
+                <Release>R71127</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -356,7 +357,7 @@
             <Cost>2</Cost>
             <Id>2021</Id>
             <Releases>
-                <Release>71127</Release>
+                <Release>R71127</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -366,8 +367,8 @@
             </Factions>
             <Id>2022</Id>
             <Releases>
-                <Release>71127</Release>
-                <Release>71275</Release>
+                <Release>R71127</Release>
+                <Release>R71275</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -384,7 +385,7 @@
             </Specials>
             <Id>2023</Id>
             <Releases>
-                <Release>71128</Release>
+                <Release>R71128</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -398,7 +399,7 @@
             <Cost>1</Cost>
             <Id>2024</Id>
             <Releases>
-                <Release>71128</Release>
+                <Release>R71128</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -408,8 +409,8 @@
             </Factions>
             <Id>2025</Id>
             <Releases>
-                <Release>71128</Release>
-                <Release>OP5Prize</Release>
+                <Release>R71128</Release>
+                <Release>OP5PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -428,7 +429,7 @@
             <Cost>3</Cost>
             <Id>2026</Id>
             <Releases>
-                <Release>OP1Prize</Release>
+                <Release>OP1PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -438,8 +439,8 @@
             </Factions>
             <Id>2027</Id>
             <Releases>
-                <Release>OP1Prize</Release>
-                <Release>71646a</Release>
+                <Release>OP1PRIZE</Release>
+                <Release>R71646A</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -457,7 +458,7 @@
             <Cost>6</Cost>
             <Id>2028</Id>
             <Releases>
-                <Release>OP2Prize</Release>
+                <Release>OP2PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -474,7 +475,7 @@
             <Cost>4</Cost>
             <Id>2041</Id>
             <Releases>
-                <Release>OP3Prize</Release>
+                <Release>OP3PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -490,7 +491,7 @@
             <Cost>4</Cost>
             <Id>2029</Id>
             <Releases>
-                <Release>71268</Release>
+                <Release>R71268</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -508,7 +509,7 @@
             <Cost>2</Cost>
             <Id>2030</Id>
             <Releases>
-                <Release>71268</Release>
+                <Release>R71268</Release>
             </Releases>
             <Specials>
                 <Special>NoPenaltyOnFederationOrBajoranShip</Special>
@@ -527,7 +528,7 @@
             <Cost>3</Cost>
             <Id>2031</Id>
             <Releases>
-                <Release>71269</Release>
+                <Release>R71269</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -544,7 +545,7 @@
             <Cost>4</Cost>
             <Id>2032</Id>
             <Releases>
-                <Release>71269</Release>
+                <Release>R71269</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -560,7 +561,7 @@
             <Cost>3</Cost>
             <Id>2033</Id>
             <Releases>
-                <Release>71270</Release>
+                <Release>R71270</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -576,7 +577,7 @@
             <Cost>4</Cost>
             <Id>2034</Id>
             <Releases>
-                <Release>71271</Release>
+                <Release>R71271</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -590,7 +591,7 @@
             <Cost>2</Cost>
             <Id>2035</Id>
             <Releases>
-                <Release>71271</Release>
+                <Release>R71271</Release>
             </Releases>
             <Specials>
                 <Special>OneDominionUpgradeCostsMinusTwo</Special>
@@ -603,10 +604,10 @@
             </Factions>
             <Id>2036</Id>
             <Releases>
-                <Release>71271</Release>
-                <Release>71279</Release>
-                <Release>3rd_wing_attack_ship</Release>
-                <Release>71524</Release>
+                <Release>R71271</Release>
+                <Release>R71279</Release>
+                <Release>R3RD_WING_ATTACK_SHIP</Release>
+                <Release>R71524</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -620,7 +621,7 @@
             <Cost>3</Cost>
             <Id>2037</Id>
             <Releases>
-                <Release>71273</Release>
+                <Release>R71273</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -636,7 +637,7 @@
             <Cost>2</Cost>
             <Id>2038</Id>
             <Releases>
-                <Release>71273</Release>
+                <Release>R71273</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -653,7 +654,7 @@
             <Cost>5</Cost>
             <Id>2039</Id>
             <Releases>
-                <Release>71275</Release>
+                <Release>R71275</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -668,7 +669,7 @@
             <Cost>2</Cost>
             <Id>2040</Id>
             <Releases>
-                <Release>71275</Release>
+                <Release>R71275</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -686,7 +687,7 @@
             <Cost>2</Cost>
             <Id>2043</Id>
             <Releases>
-                <Release>OP4Prize</Release>
+                <Release>OP4PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -703,7 +704,7 @@
             <Cost>4</Cost>
             <Id>3121</Id>
             <Releases>
-                <Release>71274</Release>
+                <Release>R71274</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -721,7 +722,7 @@
             <Cost>4</Cost>
             <Id>2046</Id>
             <Releases>
-                <Release>71272</Release>
+                <Release>R71272</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -735,7 +736,7 @@
             <Cost>2</Cost>
             <Id>3106</Id>
             <Releases>
-                <Release>71272</Release>
+                <Release>R71272</Release>
             </Releases>
             <Specials>
                 <Special>addonetechslot</Special>
@@ -755,7 +756,7 @@
             <Cost>5</Cost>
             <Id>thot_pran_op5prize</Id>
             <Releases>
-                <Release>OP5Prize</Release>
+                <Release>OP5PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -771,7 +772,7 @@
             <Cost>2</Cost>
             <Id>rudolph_ransom_71276</Id>
             <Releases>
-                <Release>71276</Release>
+                <Release>R71276</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -785,7 +786,7 @@
             <Cost>1</Cost>
             <Id>maxwell_burke_71276</Id>
             <Releases>
-                <Release>71276</Release>
+                <Release>R71276</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -803,7 +804,7 @@
             <Cost>3</Cost>
             <Id>somraw_commander_71448</Id>
             <Releases>
-                <Release>71448</Release>
+                <Release>R71448</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -820,7 +821,7 @@
             <Cost>5</Cost>
             <Id>romulan_commander_71278</Id>
             <Releases>
-                <Release>71278</Release>
+                <Release>R71278</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -837,7 +838,7 @@
             <Cost>5</Cost>
             <Id>weyoun_71279</Id>
             <Releases>
-                <Release>71279</Release>
+                <Release>R71279</Release>
             </Releases>
             <Specials>
                 <Special>AddTwoCrewSlotsDominionCostBonus</Special>
@@ -859,7 +860,7 @@
             <Cost>3</Cost>
             <Id>gelnon_71279</Id>
             <Releases>
-                <Release>71279</Release>
+                <Release>R71279</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -876,7 +877,7 @@
             <Cost>3</Cost>
             <Id>kira_nerys_op6prize</Id>
             <Releases>
-                <Release>OP6Prize</Release>
+                <Release>OP6PRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -896,7 +897,7 @@
             <Cost>3</Cost>
             <Id>tahna_los_op6prize</Id>
             <Releases>
-                <Release>OP6Prize</Release>
+                <Release>OP6PRIZE</Release>
             </Releases>
             <Specials>
                 <Special>AddsHiddenTechSlot</Special>
@@ -909,8 +910,8 @@
             </Factions>
             <Id>bajoran_captain_op6prize</Id>
             <Releases>
-                <Release>OP6Prize</Release>
-                <Release>71445</Release>
+                <Release>OP6PRIZE</Release>
+                <Release>R71445</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -928,7 +929,7 @@
             <Cost>5</Cost>
             <Id>kathryn_janeway_71280</Id>
             <Releases>
-                <Release>71280</Release>
+                <Release>R71280</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -944,7 +945,7 @@
             <Cost>3</Cost>
             <Id>chakotay_71280</Id>
             <Releases>
-                <Release>71280</Release>
+                <Release>R71280</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -960,7 +961,7 @@
             <Cost>3</Cost>
             <Id>tactical_drone_71283</Id>
             <Releases>
-                <Release>71283</Release>
+                <Release>R71283</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -976,7 +977,7 @@
             <Cost>2</Cost>
             <Id>culluh_71282</Id>
             <Releases>
-                <Release>71282</Release>
+                <Release>R71282</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -991,7 +992,7 @@
             <Cost>1</Cost>
             <Id>rettik_71282</Id>
             <Releases>
-                <Release>71282</Release>
+                <Release>R71282</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1006,12 +1007,12 @@
             <Skill>7</Skill>
             <Talent>1</Talent>
             <Factions>
-                <Faction>Species 8472</Faction>
+                <Faction>Species_8472</Faction>
             </Factions>
             <Cost>6</Cost>
             <Id>bioship_alpha_pilot_71281</Id>
             <Releases>
-                <Release>71281</Release>
+                <Release>R71281</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1022,12 +1023,12 @@
             </Factions>
             <Id>drone_71283</Id>
             <Releases>
-                <Release>71283</Release>
-                <Release>71444</Release>
-                <Release>71522</Release>
-                <Release>71525</Release>
-                <Release>71646d</Release>
-                <Release>71511</Release>
+                <Release>R71283</Release>
+                <Release>R71444</Release>
+                <Release>R71522</Release>
+                <Release>R71525</Release>
+                <Release>R71646D</Release>
+                <Release>R71511</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1037,18 +1038,18 @@
             </Factions>
             <Id>kazon_captain_71282</Id>
             <Releases>
-                <Release>71282</Release>
-                <Release>71646c</Release>
+                <Release>R71282</Release>
+                <Release>R71646C</Release>
             </Releases>
         </Captain>
         <Captain>
-            <Title>Species 8472 Captain</Title>
+            <Title>Species_8472 Captain</Title>
             <Factions>
-                <Faction>Species 8472</Faction>
+                <Faction>Species_8472</Faction>
             </Factions>
             <Id>species_8472_captain_71281</Id>
             <Releases>
-                <Release>71281</Release>
+                <Release>R71281</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1067,7 +1068,7 @@
             <Cost>3</Cost>
             <Id>loskene_opwebprize</Id>
             <Releases>
-                <Release>OPWebPrize</Release>
+                <Release>OPWEBPRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1077,7 +1078,7 @@
             </Factions>
             <Id>tholian_opwebprize</Id>
             <Releases>
-                <Release>OPWebPrize</Release>
+                <Release>OPWEBPRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1094,7 +1095,7 @@
             <Cost>4</Cost>
             <Id>soval_71446</Id>
             <Releases>
-                <Release>71446</Release>
+                <Release>R71446</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1108,7 +1109,7 @@
             <Cost>2</Cost>
             <Id>tavek_71446</Id>
             <Releases>
-                <Release>71446</Release>
+                <Release>R71446</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1121,10 +1122,10 @@
             </Factions>
             <Id>vulcan_captain_71446</Id>
             <Releases>
-                <Release>71446</Release>
-                <Release>71508</Release>
-                <Release>71527</Release>
-                <Release>71646e</Release>
+                <Release>R71446</Release>
+                <Release>R71508</Release>
+                <Release>R71527</Release>
+                <Release>R71646E</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1140,7 +1141,7 @@
             <Cost>2</Cost>
             <Id>lenaris_holem_71445</Id>
             <Releases>
-                <Release>71445</Release>
+                <Release>R71445</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1157,7 +1158,7 @@
             <Cost>4</Cost>
             <Id>hazar_71445</Id>
             <Releases>
-                <Release>71445</Release>
+                <Release>R71445</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1174,7 +1175,7 @@
             <Cost>4</Cost>
             <Id>tactical_drone_71444</Id>
             <Releases>
-                <Release>71444</Release>
+                <Release>R71444</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1195,7 +1196,7 @@
             <Cost>6</Cost>
             <Id>borg_queen_71444</Id>
             <Releases>
-                <Release>71444</Release>
+                <Release>R71444</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1210,7 +1211,7 @@
             <Cost>3</Cost>
             <Id>gorn_commander_oparenaprize</Id>
             <Releases>
-                <Release>OPArenaPrize</Release>
+                <Release>OPARENAPRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1220,7 +1221,7 @@
             </Factions>
             <Id>gorn_oparenaprize</Id>
             <Releases>
-                <Release>OPArenaPrize</Release>
+                <Release>OPARENAPRIZE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1240,7 +1241,7 @@
             <Cost>4</Cost>
             <Id>k_nera_i_k_s_b_moth</Id>
             <Releases>
-                <Release>i_k_s_b_moth</Release>
+                <Release>I_K_S_B_MOTH</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1259,7 +1260,7 @@
             <Cost>4</Cost>
             <Id>liviana_charvanek_i_r_w_vorta_vor</Id>
             <Releases>
-                <Release>i_r_w_vorta_vor</Release>
+                <Release>I_R_W_VORTA_VOR</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1277,7 +1278,7 @@
             <Cost>4</Cost>
             <Id>michael_eddington_gavroche</Id>
             <Releases>
-                <Release>gavroche</Release>
+                <Release>GAVROCHE</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1294,7 +1295,7 @@
             <Cost>4</Cost>
             <Id>gul_damar_3rd_wing_attack_ship</Id>
             <Releases>
-                <Release>3rd_wing_attack_ship</Release>
+                <Release>R3RD_WING_ATTACK_SHIP</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1311,7 +1312,7 @@
             <Cost>4</Cost>
             <Id>benjamin_maxwell_u_s_s_yaeger</Id>
             <Releases>
-                <Release>u_s_s_yaeger</Release>
+                <Release>U_S_S_YAEGER</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1321,8 +1322,8 @@
             </Factions>
             <Id>maquis_gavroche</Id>
             <Releases>
-                <Release>gavroche</Release>
-                <Release>71528</Release>
+                <Release>GAVROCHE</Release>
+                <Release>R71528</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1339,7 +1340,7 @@
             <Cost>4</Cost>
             <Id>mr_spock_71523</Id>
             <Releases>
-                <Release>71523</Release>
+                <Release>R71523</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1355,7 +1356,7 @@
             <Cost>2</Cost>
             <Id>will_decker_71523</Id>
             <Releases>
-                <Release>71523</Release>
+                <Release>R71523</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1371,7 +1372,7 @@
             <Cost>2</Cost>
             <Id>hugh_71522</Id>
             <Releases>
-                <Release>71522</Release>
+                <Release>R71522</Release>
             </Releases>
             <Specials>
                 <Special>hugh_71522</Special>
@@ -1394,7 +1395,7 @@
             <Cost>4</Cost>
             <Id>lore_71522</Id>
             <Releases>
-                <Release>71522</Release>
+                <Release>R71522</Release>
             </Releases>
             <Specials>
                 <Special>lore_71522</Special>
@@ -1417,7 +1418,7 @@
             <Cost>2</Cost>
             <Id>keevan_71524</Id>
             <Releases>
-                <Release>71524</Release>
+                <Release>R71524</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1435,7 +1436,7 @@
             <Cost>5</Cost>
             <Id>weyoun_71524</Id>
             <Releases>
-                <Release>71524</Release>
+                <Release>R71524</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1450,7 +1451,7 @@
             <Cost>3</Cost>
             <Id>vanik_71508</Id>
             <Releases>
-                <Release>71508</Release>
+                <Release>R71508</Release>
             </Releases>
             <Specials>
                 <Special>VulcanAndFedTechUpgradesMinus2</Special>
@@ -1470,7 +1471,7 @@
             <Cost>5</Cost>
             <Id>james_t_kirk_cap_71523</Id>
             <Releases>
-                <Release>71523</Release>
+                <Release>R71523</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1487,7 +1488,7 @@
             <Cost>5</Cost>
             <Id>gul_dukat_cap_71524</Id>
             <Releases>
-                <Release>71524</Release>
+                <Release>R71524</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1505,7 +1506,7 @@
             <Cost>2</Cost>
             <Id>magnus_hansen_71509</Id>
             <Releases>
-                <Release>71509</Release>
+                <Release>R71509</Release>
             </Releases>
             <Specials>
                 <Special>NoPenaltyOnFederationShip</Special>
@@ -1528,7 +1529,7 @@
             <Cost>4</Cost>
             <Id>benjamin_sisko_71786</Id>
             <Releases>
-                <Release>71786</Release>
+                <Release>R71786</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1547,7 +1548,7 @@
             <Cost>3</Cost>
             <Id>jonathan_archer_71526</Id>
             <Releases>
-                <Release>71526</Release>
+                <Release>R71526</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1566,7 +1567,7 @@
             <Cost>2</Cost>
             <Id>j_hayes_71526</Id>
             <Releases>
-                <Release>71526</Release>
+                <Release>R71526</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1580,7 +1581,7 @@
             <Cost>3</Cost>
             <Id>maxwell_forrest_cap_71526</Id>
             <Releases>
-                <Release>71526</Release>
+                <Release>R71526</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1598,7 +1599,7 @@
             <Cost>4</Cost>
             <Id>sopek_71527</Id>
             <Releases>
-                <Release>71527</Release>
+                <Release>R71527</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1618,7 +1619,7 @@
             <Cost>2</Cost>
             <Id>kuvak_71527</Id>
             <Releases>
-                <Release>71527</Release>
+                <Release>R71527</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1635,7 +1636,7 @@
             <Cost>3</Cost>
             <Id>v_las_cap_71527</Id>
             <Releases>
-                <Release>71527</Release>
+                <Release>R71527</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1652,7 +1653,7 @@
             <Cost>2</Cost>
             <Id>third_of_five_71525</Id>
             <Releases>
-                <Release>71525</Release>
+                <Release>R71525</Release>
             </Releases>
             <Specials>
                 <Special>not_with_hugh</Special>
@@ -1673,7 +1674,7 @@
             <Cost>1</Cost>
             <Id>tactical_drone_71525</Id>
             <Releases>
-                <Release>71525</Release>
+                <Release>R71525</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1690,7 +1691,7 @@
             <Cost>4</Cost>
             <Id>jean_luc_picard_71510</Id>
             <Releases>
-                <Release>71510</Release>
+                <Release>R71510</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1708,23 +1709,23 @@
             <Skill>7</Skill>
             <Talent>1</Talent>
             <Factions>
-                <Faction>Mirror Universe</Faction>
+                <Faction>Mirror</Faction>
             </Factions>
             <Cost>4</Cost>
             <Id>william_t_riker_71510b</Id>
             <Releases>
-                <Release>71510b</Release>
+                <Release>R71510B</Release>
             </Releases>
         </Captain>
         <Captain>
-            <Title>Mirror Universe Captain</Title>
+            <Title>Mirror Captain</Title>
             <Factions>
-                <Faction>Mirror Universe</Faction>
+                <Faction>Mirror</Faction>
             </Factions>
             <Id>mirror_universe_captain_71510b</Id>
             <Releases>
-                <Release>71510b</Release>
-                <Release>71646c</Release>
+                <Release>R71510B</Release>
+                <Release>R71646C</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1741,7 +1742,7 @@
             <Cost>4</Cost>
             <Id>bok_71646a</Id>
             <Releases>
-                <Release>71646a</Release>
+                <Release>R71646A</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1752,12 +1753,12 @@
             <Unique>MIRROR</Unique>
             <Skill>3</Skill>
             <Factions>
-                <Faction>Mirror Universe</Faction>
+                <Faction>Mirror</Faction>
             </Factions>
             <Cost>2</Cost>
             <Id>elim_garak_71646b</Id>
             <Releases>
-                <Release>71646b</Release>
+                <Release>R71646B</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1773,7 +1774,7 @@
             <Cost>2</Cost>
             <Id>haron_71646c</Id>
             <Releases>
-                <Release>71646c</Release>
+                <Release>R71646C</Release>
             </Releases>
             <Specials>
                 <Special>AddOneWeaponAllKazonMinusOne</Special>
@@ -1792,7 +1793,7 @@
             <Cost>2</Cost>
             <Id>tactical_drone_71646d</Id>
             <Releases>
-                <Release>71646d</Release>
+                <Release>R71646D</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1809,7 +1810,7 @@
             <Cost>4</Cost>
             <Id>solok_71646e</Id>
             <Releases>
-                <Release>71646e</Release>
+                <Release>R71646E</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1828,7 +1829,7 @@
             <Cost>5</Cost>
             <Id>jean_luc_picard_b_71531</Id>
             <Releases>
-                <Release>71531</Release>
+                <Release>R71531</Release>
             </Releases>
             <Specials>
                 <Special>addonetechslot</Special>
@@ -1850,7 +1851,7 @@
             <Cost>5</Cost>
             <Id>jean_luc_picard_c_71531</Id>
             <Releases>
-                <Release>71531</Release>
+                <Release>R71531</Release>
             </Releases>
             <Specials>
                 <Special>addoneweaponslot</Special>
@@ -1872,7 +1873,7 @@
             <Cost>5</Cost>
             <Id>jean_luc_picard_c_71531</Id>
             <Releases>
-                <Release>71531</Release>
+                <Release>R71531</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1894,7 +1895,7 @@
             <Cost>5</Cost>
             <Id>jean_luc_picard_71531</Id>
             <Releases>
-                <Release>71531</Release>
+                <Release>R71531</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1913,7 +1914,7 @@
             <Cost>5</Cost>
             <Id>jean_luc_picard_d_71531</Id>
             <Releases>
-                <Release>71531</Release>
+                <Release>R71531</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1935,7 +1936,7 @@
             <Cost>3</Cost>
             <Id>salatrel_71511</Id>
             <Releases>
-                <Release>71511</Release>
+                <Release>R71511</Release>
             </Releases>
         </Captain>
         <Captain>
@@ -1954,7 +1955,7 @@
             <Cost>4</Cost>
             <Id>chakotay_71528</Id>
             <Releases>
-                <Release>71528</Release>
+                <Release>R71528</Release>
             </Releases>
             <Specials>
                 <Special>addoneweaponslot</Special>
@@ -1976,7 +1977,7 @@
             <Cost>4</Cost>
             <Id>chakotay_b_71528</Id>
             <Releases>
-                <Release>71528</Release>
+                <Release>R71528</Release>
             </Releases>
             <Specials>
                 <Special>Add_Crew_1</Special>
@@ -1995,7 +1996,7 @@
             <Cost>3</Cost>
             <Id>calvin_hudson_b_71528</Id>
             <Releases>
-                <Release>71528</Release>
+                <Release>R71528</Release>
             </Releases>
             <Specials>
                 <Special>AllUpgradesMinusOneOnIndepedentShipAndAdd1Tech</Special>
@@ -2014,7 +2015,7 @@
             <Cost>3</Cost>
             <Id>calvin_hudson_c_71528</Id>
             <Releases>
-                <Release>71528</Release>
+                <Release>R71528</Release>
             </Releases>
             <Specials>
                 <Special>AllUpgradesMinusOneOnIndepedentShipAndAdd1Weapon</Special>
@@ -2033,7 +2034,7 @@
             <Cost>3</Cost>
             <Id>calvin_hudson_71528</Id>
             <Releases>
-                <Release>71528</Release>
+                <Release>R71528</Release>
             </Releases>
             <Specials>
                 <Special>AllUpgradesMinusOneOnIndepedentShipAndAdd1Crew</Special>
@@ -2052,7 +2053,7 @@
             <Cost>4</Cost>
             <Id>tactical_drone_71530</Id>
             <Releases>
-                <Release>71530</Release>
+                <Release>R71530</Release>
             </Releases>
         </Captain>
     </captainList>

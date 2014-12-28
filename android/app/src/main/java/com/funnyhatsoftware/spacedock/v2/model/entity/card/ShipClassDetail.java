@@ -24,6 +24,10 @@ public class ShipClassDetail {
     @Element(name = "RearArc",required = false)
     int rearArc = 0;
 
+    public String getName() {
+        return name;
+    }
+
     static class Maneuver {
         @Attribute
         String color;

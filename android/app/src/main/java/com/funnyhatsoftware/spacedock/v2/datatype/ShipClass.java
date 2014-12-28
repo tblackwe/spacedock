@@ -6,8 +6,10 @@ package com.funnyhatsoftware.spacedock.v2.datatype;
 public enum ShipClass {
     AERIE("Aerie Class"),
     BREL("B'Rel Class"),
+    BREL2("B'rel Class"),
     BAJORAN_INTERCEPTOR("Bajoran Interceptor"),
     BAJORAN_SCOUT_SHIP("Bajoran Scout Ship"),
+    BORG_CUBE("Borg Cube"), //THIS ONE
     BORG_OCTAHEDRON("Borg Octahedron"),
     BORG_SCOUT_CUBE("Borg Scout Cube"),
     BORG_SPHERE("Borg Sphere"),
@@ -24,11 +26,12 @@ public enum ShipClass {
     DDERIDEX("D'deridex Class"),
     D7("D7 Class"),
     DEFIANT("Defiant Class"),
+    DEFIANT_MIRROR("Defiant Class (Mirror)"), //THIS ONE
     EXCELSIOR("Excelsior Class"),
     FEDERATION_ATTACK_FIGHTER("Federation Attack Fighter"),
     FEDERATION_NX("Federation NX Class"),
     GALAXY("Galaxy Class"),
-    MIRROR_GALAXY("Galaxy Class (MU)"),
+    GALAXY_MIRROR("Galaxy Class (Mirror)"),
     GORN_RAIDER("Gorn Raider"),
     HIDEKI_CLASS_ATTACK_FIGHTER("Hideki Class Attack Fighter"),
     INTREPID("Intrepid Class"),
@@ -37,17 +40,20 @@ public enum ShipClass {
     JEMHADAR_BATTLESHIP("Jem'Hadar Battleship"),
     KTINGA("K'T'Inga Class"),
     KVORT("K'Vort Class"),
+    KLINGON_BOP("Klingon Bird-of-Prey"), //THIS ONE
     KAZON_RAIDER("Kazon Raider"),
     MAQUIS_RAIDER("Maquis Raider"),
     MAQUIS_RAIDER_2("Maquis Raider"),
     MIRANDA("Miranda Class"),
     NEBULA("Nebula Class"),
     NEGHVAR("Negh'var Class"),
+    NEGHVAR_MIRROR("Negh'var Class (Mirror)"),
     NOR_CLASS_ORBITAL_SPACE_STATION("Nor Class Orbital Space Station"),
     NOVA("Nova Class"),
     PREDATOR("Predator Class"),
     RAPTOR("Raptor Class"),
-    ROMULAN_BIRDOFPREY("Romulan Bird-of-Prey Class"),
+    REMAN_WARBIRD("Reman Warbird"), // THIS ONE
+    ROMULAN_BIRDOFPREY("Romulan Bird-Of-Prey Class"),
     ROMULAN_BIRD_OF_PREY("Romulan Bird of Prey Class"),
     ROMULAN_SCIENCE_VESSEL("Romulan Science Vessel"),
     ROMULAN_SCOUT_VESSEL("Romulan Scout Vessel"),
@@ -67,5 +73,14 @@ public enum ShipClass {
 
     public String getText() {
         return text;
+    }
+
+    public static ShipClass fromText(String text){
+        for (ShipClass shipClass : ShipClass.values()){
+            if (shipClass.text.equals(text)){
+                return shipClass;
+            }
+        }
+        return null;
     }
 }
