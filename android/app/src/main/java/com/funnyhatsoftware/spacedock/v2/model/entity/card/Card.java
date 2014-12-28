@@ -20,8 +20,10 @@ public abstract class Card {
     protected String title;
     @Element(name = "Text", required = false)
     protected String text;
-    @Element(name = "Release")
+    @Element(name = "Release", required = false)
     protected String release;
+    @Element(name = "Releases", required = false)
+    protected List<String> releases;
     @ElementList(name = "Factions")
     protected List<Faction> factions;
     @Element(name = "Cost")
@@ -95,5 +97,13 @@ public abstract class Card {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public List<String> getReleases() {
+        return releases;
+    }
+
+    public void setReleases(List<String> releases) {
+        this.releases = releases;
     }
 }
