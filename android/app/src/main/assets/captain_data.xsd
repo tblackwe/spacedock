@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+    elementFormDefault="qualified">
+    <xs:element name="Captains">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="captainList">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Captain" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                        <xs:element name="Title" type="xs:string" />
+                                        <xs:element name="Ability" type="xs:string" />
+                                        <xs:element name="Unique" type="xs:string" />
+                                        <xs:element name="Skill" type="xs:byte" />
+                                        <xs:element name="Talent" type="xs:byte" />
+                                        <xs:element name="Factions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Faction" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Cost" type="xs:byte" />
+                                        <xs:element name="Id" type="xs:string" />
+                                        <xs:element name="Releases">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Release" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Specials">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Special" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

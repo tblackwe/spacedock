@@ -1,4 +1,5 @@
-<Admirals>
+<Admirals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spacedockapp.org"
+    xsi:schemaLocation="http://www.spacedockapp.org admiral_data.xsd">
     <admiralList>
         <Admiral>
             <Title>James T. Kirk</Title>

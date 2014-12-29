@@ -9,7 +9,7 @@ public enum ShipClass {
     BREL2("B'rel Class"),
     BAJORAN_INTERCEPTOR("Bajoran Interceptor"),
     BAJORAN_SCOUT_SHIP("Bajoran Scout Ship"),
-    BORG_CUBE("Borg Cube"), //THIS ONE
+    BORG_CUBE("Borg Cube"),
     BORG_OCTAHEDRON("Borg Octahedron"),
     BORG_SCOUT_CUBE("Borg Scout Cube"),
     BORG_SPHERE("Borg Sphere"),
@@ -26,7 +26,7 @@ public enum ShipClass {
     DDERIDEX("D'deridex Class"),
     D7("D7 Class"),
     DEFIANT("Defiant Class"),
-    DEFIANT_MIRROR("Defiant Class (Mirror)"), //THIS ONE
+    DEFIANT_MIRROR("Defiant Class (Mirror)"),
     EXCELSIOR("Excelsior Class"),
     FEDERATION_ATTACK_FIGHTER("Federation Attack Fighter"),
     FEDERATION_NX("Federation NX Class"),
@@ -40,7 +40,7 @@ public enum ShipClass {
     JEMHADAR_BATTLESHIP("Jem'Hadar Battleship"),
     KTINGA("K'T'Inga Class"),
     KVORT("K'Vort Class"),
-    KLINGON_BOP("Klingon Bird-of-Prey"), //THIS ONE
+    KLINGON_BOP("Klingon Bird-of-Prey"),
     KAZON_RAIDER("Kazon Raider"),
     MAQUIS_RAIDER("Maquis Raider"),
     MAQUIS_RAIDER_2("Maquis Raider (Rear Arc)"),
@@ -52,7 +52,7 @@ public enum ShipClass {
     NOVA("Nova Class"),
     PREDATOR("Predator Class"),
     RAPTOR("Raptor Class"),
-    REMAN_WARBIRD("Reman Warbird"), // THIS ONE
+    REMAN_WARBIRD("Reman Warbird"),
     ROMULAN_BIRDOFPREY("Romulan Bird-Of-Prey Class"),
     ROMULAN_BIRD_OF_PREY("Romulan Bird of Prey Class"),
     ROMULAN_SCIENCE_VESSEL("Romulan Science Vessel"),

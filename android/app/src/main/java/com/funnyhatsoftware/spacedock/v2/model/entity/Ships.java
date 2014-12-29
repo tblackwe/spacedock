@@ -2,6 +2,7 @@ package com.funnyhatsoftware.spacedock.v2.model.entity;
 
 import com.funnyhatsoftware.spacedock.v2.model.entity.card.Ship;
 
+import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.ElementList;
 
 import java.util.List;
@@ -11,6 +12,9 @@ import java.util.List;
  */
 
 public class Ships {
+
+    @Attribute(required=false)
+    private String schemaLocation;
     @ElementList
     private List<Ship> shipList;
 

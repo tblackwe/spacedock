@@ -1,4 +1,5 @@
-<ShipClassDetails>
+<ShipClassDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spacedockapp.org"
+    xsi:schemaLocation="http://www.spacedockapp.org ship_class_data.xsd">
     <shipClassDetailList>
         <ShipClassDetail>
             <Name>Galaxy Class</Name>

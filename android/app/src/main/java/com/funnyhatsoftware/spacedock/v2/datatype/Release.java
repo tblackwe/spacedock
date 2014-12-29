@@ -60,6 +60,7 @@ public enum Release {
     R71526,
     R71527,
     R71528,
+    R71529,
     R71530,
     R71531,
     R71532,
@@ -71,5 +72,6 @@ public enum Release {
     R71646D,
     R71646E,
     R71786,
+    R71792,
     U_S_S_YAEGER,
 }

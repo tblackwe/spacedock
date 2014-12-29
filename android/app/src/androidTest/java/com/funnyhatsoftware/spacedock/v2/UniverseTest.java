@@ -20,15 +20,20 @@ public class UniverseTest extends AndroidTestCase {
     public void testGetShips() throws Exception {
         final List<Ship> ships = UniverseFactory.getShips(getContext());
         Assert.assertNotNull(ships);
-        Assert.assertEquals("Incorrect number of ships", 139, ships.size());
+        Assert.assertEquals("Incorrect number of ships", 142, ships.size());
+        SortedSet supportedClasses = new TreeSet(Arrays.asList(ShipClass.values()));
+        for (Ship ship : ships) {
+            supportedClasses.remove(ship.getShipClass());
+        }
+        Assert.assertTrue("Following Ship Classes supported but not leveraged: " + supportedClasses, supportedClasses.isEmpty());
+
     }
 
     public void testGetShipClassDetails() throws Exception {
         final List<ShipClassDetail> shipClassDetails = UniverseFactory.getShipClassDetails(getContext());
         Assert.assertNotNull(shipClassDetails);
         if (ShipClass.values().length != shipClassDetails.size()) {
-            ShipClass[] clone = ShipClass.values().clone();
-            SortedSet shipClassSet = new TreeSet(Arrays.asList(clone));
+            SortedSet shipClassSet = new TreeSet(Arrays.asList(ShipClass.values()));
             for (ShipClassDetail detail : shipClassDetails) {
                 final ShipClass shipClass = ShipClass.fromText(detail.getName());
                 if (null != shipClass) {
