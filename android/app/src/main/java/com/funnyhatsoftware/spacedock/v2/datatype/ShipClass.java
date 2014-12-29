@@ -43,7 +43,7 @@ public enum ShipClass {
     KLINGON_BOP("Klingon Bird-of-Prey"), //THIS ONE
     KAZON_RAIDER("Kazon Raider"),
     MAQUIS_RAIDER("Maquis Raider"),
-    MAQUIS_RAIDER_2("Maquis Raider"),
+    MAQUIS_RAIDER_2("Maquis Raider (Rear Arc)"),
     MIRANDA("Miranda Class"),
     NEBULA("Nebula Class"),
     NEGHVAR("Negh'var Class"),

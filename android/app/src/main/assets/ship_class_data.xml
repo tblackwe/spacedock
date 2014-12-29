@@ -1232,7 +1232,7 @@
             <FrontArc>360</FrontArc>
         </ShipClassDetail>
         <ShipClassDetail>
-            <Name>Maquis Raider</Name>
+            <Name>Maquis Raider (Rear Arc)</Name>
             <Id>maquis_raider_b</Id>
             <Maneuvers>
                 <Maneuver color="white" kind="straight" speed="4" />
@@ -1247,6 +1247,120 @@
                 <Maneuver color="green" kind="straight" speed="2" />
                 <Maneuver color="white" kind="right-bank" speed="2" />
                 <Maneuver color="white" kind="right-turn" speed="2" />
+                <Maneuver color="green" kind="left-bank" speed="1" />
+                <Maneuver color="green" kind="straight" speed="1" />
+                <Maneuver color="green" kind="right-bank" speed="1" />
+            </Maneuvers>
+            <FrontArc>90</FrontArc>
+            <RearArc>90</RearArc>
+        </ShipClassDetail>
+        <ShipClassDetail>
+            <Name>Borg Cube</Name>
+            <Id>borg_cube</Id>
+            <Maneuvers>
+                <Maneuver color="red" kind="straight" speed="6" />
+                <Maneuver color="red" kind="straight" speed="5" />
+                <Maneuver color="white" kind="straight" speed="4" />
+                <Maneuver color="white" kind="left-spin" speed="3" />
+                <Maneuver color="white" kind="straight" speed="3" />
+                <Maneuver color="white" kind="right-spin" speed="3" />
+                <Maneuver color="white" kind="left-spin" speed="2" />
+                <Maneuver color="green" kind="straight" speed="2" />
+                <Maneuver color="white" kind="right-spin" speed="2" />
+                <Maneuver color="green" kind="left-spin" speed="1" />
+                <Maneuver color="green" kind="straight" speed="1" />
+                <Maneuver color="green" kind="right-spin" speed="1" />
+                <Maneuver color="white" kind="straight" speed="-1" />
+                <Maneuver color="white" kind="straight" speed="-2" />
+                <Maneuver color="red" kind="straight" speed="-3" />
+            </Maneuvers>
+            <FrontArc>360</FrontArc>
+        </ShipClassDetail>
+        <ShipClassDetail>
+            <Name>Defiant Class (Mirror)</Name>
+            <Id>defiant_class_mirror</Id>
+            <Maneuvers>
+                <Maneuver color="white" kind="straight" speed="4" />
+                <Maneuver color="red" kind="left-turn" speed="3" />
+                <Maneuver color="white" kind="left-bank" speed="3" />
+                <Maneuver color="white" kind="straight" speed="3" />
+                <Maneuver color="white" kind="right-bank" speed="3" />
+                <Maneuver color="red" kind="about" speed="3" />
+                <Maneuver color="red" kind="right-turn" speed="3" />
+                <Maneuver color="white" kind="left-turn" speed="2" />
+                <Maneuver color="white" kind="left-bank" speed="2" />
+                <Maneuver color="green" kind="straight" speed="2" />
+                <Maneuver color="white" kind="right-bank" speed="2" />
+                <Maneuver color="white" kind="right-turn" speed="2" />
+                <Maneuver color="green" kind="left-bank" speed="1" />
+                <Maneuver color="green" kind="straight" speed="1" />
+                <Maneuver color="green" kind="right-bank" speed="1" />
+            </Maneuvers>
+            <FrontArc>90</FrontArc>
+            <RearArc>90</RearArc>
+        </ShipClassDetail>
+        <ShipClassDetail>
+            <Name>Klingon Bird-of-Prey</Name>
+            <Id>klingon_bird_of_prey</Id>
+            <Maneuvers>
+                <Maneuver color="white" kind="straight" speed="4" />
+                <Maneuver color="red" kind="left-turn" speed="3" />
+                <Maneuver color="red" kind="about" speed="3" />
+                <Maneuver color="white" kind="left-bank" speed="3" />
+                <Maneuver color="white" kind="straight" speed="3" />
+                <Maneuver color="white" kind="right-bank" speed="3" />
+                <Maneuver color="red" kind="right-turn" speed="3" />
+                <Maneuver color="white" kind="left-turn" speed="2" />
+                <Maneuver color="green" kind="left-bank" speed="2" />
+                <Maneuver color="green" kind="straight" speed="2" />
+                <Maneuver color="green" kind="right-bank" speed="2" />
+                <Maneuver color="white" kind="right-turn" speed="2" />
+                <Maneuver color="green" kind="left-bank" speed="1" />
+                <Maneuver color="green" kind="straight" speed="1" />
+                <Maneuver color="green" kind="right-bank" speed="1" />
+            </Maneuvers>
+            <FrontArc>90</FrontArc>
+            <RearArc>90</RearArc>
+        </ShipClassDetail>
+        <ShipClassDetail>
+            <Name>Negh'var Class (Mirror)</Name>
+            <Id>negh_var_class_mirror</Id>
+            <Maneuvers>
+                <Maneuver color="white" kind="straight" speed="5" />
+                <Maneuver color="white" kind="straight" speed="4" />
+                <Maneuver color="red" kind="left-turn" speed="3" />
+                <Maneuver color="white" kind="left-bank" speed="3" />
+                <Maneuver color="white" kind="straight" speed="3" />
+                <Maneuver color="white" kind="right-bank" speed="3" />
+                <Maneuver color="red" kind="right-turn" speed="3" />
+                <Maneuver color="red" kind="left-turn" speed="2" />
+                <Maneuver color="white" kind="left-bank" speed="2" />
+                <Maneuver color="green" kind="straight" speed="2" />
+                <Maneuver color="white" kind="right-bank" speed="2" />
+                <Maneuver color="red" kind="right-turn" speed="2" />
+                <Maneuver color="green" kind="left-bank" speed="1" />
+                <Maneuver color="green" kind="straight" speed="1" />
+                <Maneuver color="green" kind="right-bank" speed="1" />
+            </Maneuvers>
+            <FrontArc>90</FrontArc>
+            <RearArc>90</RearArc>
+        </ShipClassDetail>
+        <ShipClassDetail>
+            <Name>Reman Warbird</Name>
+            <Id>reman_warbird</Id>
+            <Maneuvers>
+                <Maneuver color="white" kind="straight" speed="6" />
+                <Maneuver color="white" kind="straight" speed="5" />
+                <Maneuver color="white" kind="straight" speed="4" />
+                <Maneuver color="red" kind="about" speed="4" />
+                <Maneuver color="white" kind="left-turn" speed="3" />
+                <Maneuver color="white" kind="left-bank" speed="3" />
+                <Maneuver color="white" kind="straight" speed="3" />
+                <Maneuver color="white" kind="right-bank" speed="3" />
+                <Maneuver color="white" kind="right-turn" speed="3" />
+                <Maneuver color="white" kind="left-bank" speed="2" />
+                <Maneuver color="green" kind="straight" speed="2" />
+                <Maneuver color="white" kind="right-bank" speed="2" />
                 <Maneuver color="green" kind="left-bank" speed="1" />
                 <Maneuver color="green" kind="straight" speed="1" />
                 <Maneuver color="green" kind="right-bank" speed="1" />

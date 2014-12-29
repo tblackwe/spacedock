@@ -26,10 +26,10 @@ public class UniverseTest extends AndroidTestCase {
     public void testGetShipClassDetails() throws Exception {
         final List<ShipClassDetail> shipClassDetails = UniverseFactory.getShipClassDetails(getContext());
         Assert.assertNotNull(shipClassDetails);
-        if (ShipClass.values().length != shipClassDetails.size()){
+        if (ShipClass.values().length != shipClassDetails.size()) {
             ShipClass[] clone = ShipClass.values().clone();
             SortedSet shipClassSet = new TreeSet(Arrays.asList(clone));
-            for (ShipClassDetail detail : shipClassDetails){
+            for (ShipClassDetail detail : shipClassDetails) {
                 final ShipClass shipClass = ShipClass.fromText(detail.getName());
                 if (null != shipClass) {
                     shipClassSet.remove(shipClass);
@@ -37,7 +37,9 @@ public class UniverseTest extends AndroidTestCase {
                     Assert.fail("MISSING ENUM " + detail.getName());
                 }
             }
-            Assert.fail("MISSING CLASSES: " + shipClassSet);
+            if (!shipClassSet.isEmpty()) {
+                Assert.fail("MISSING CLASSES: " + shipClassSet);
+            }
         }
     }
 
