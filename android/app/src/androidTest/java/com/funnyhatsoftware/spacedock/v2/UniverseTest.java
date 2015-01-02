@@ -20,7 +20,7 @@ public class UniverseTest extends AndroidTestCase {
     public void testGetShips() throws Exception {
         final List<Ship> ships = UniverseFactory.getShips(getContext());
         Assert.assertNotNull(ships);
-        Assert.assertEquals("Incorrect number of ships", 142, ships.size());
+        Assert.assertEquals("Incorrect number of ships", 145, ships.size());
         SortedSet supportedClasses = new TreeSet(Arrays.asList(ShipClass.values()));
         for (Ship ship : ships) {
             supportedClasses.remove(ship.getShipClass());

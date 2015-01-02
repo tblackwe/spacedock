@@ -3759,5 +3759,94 @@
                 <Release>R71535</Release>
             </Releases>
         </Ship>
+        <Ship>
+            <Title>Klingon/Borg Starship</Title>
+            <ShipClass>BREL2</ShipClass>
+            <Factions>
+                <Faction>Borg</Faction>
+            </Factions>
+            <Attack>5</Attack>
+            <Agility>1</Agility>
+            <Hull>3</Hull>
+            <Shield>3</Shield>
+            <Cost>24</Cost>
+            <Actions>
+                <Action>TargetLock</Action>
+                <Action>Cloak</Action>
+                <Action>SensorEcho</Action>
+                <Action>Evasive</Action>
+            </Actions>
+            <Borg>1</Borg>
+            <Tech>0</Tech>
+            <Weapon>2</Weapon>
+            <Crew>1</Crew>
+            <Id>klingon_borg_starship_71512</Id>
+            <Releases>
+                <Release>R71512</Release>
+            </Releases>
+        </Ship>
+        <Ship>
+            <Title>Assimilated Vessel 80279</Title>
+            <Unique>PRIME</Unique>
+            <ShipClass>BREL2</ShipClass>
+            <Factions>
+                <Faction>Borg</Faction>
+                <Faction>Klingon</Faction>
+            </Factions>
+            <Attack>5</Attack>
+            <Agility>1</Agility>
+            <Hull>3</Hull>
+            <Shield>4</Shield>
+            <Text>When attacking, during the Modify Attack Dice step, you may spend 3 Drone Tokens
+                to choose any number of your attack dice and re-roll them (even if they have already
+                been re-rolled).
+            </Text>
+            <Cost>26</Cost>
+            <Actions>
+                <Action>TargetLock</Action>
+                <Action>Cloak</Action>
+                <Action>SensorEcho</Action>
+                <Action>Evasive</Action>
+            </Actions>
+            <Borg>1</Borg>
+            <Tech>1</Tech>
+            <Weapon>2</Weapon>
+            <Crew>1</Crew>
+            <Id>assimilated_vessel_80279_71512</Id>
+            <Releases>
+                <Release>R71512</Release>
+            </Releases>
+        </Ship>
+        <Ship>
+            <Title>Korok's Bird-of-Prey</Title>
+            <Unique>PRIME</Unique>
+            <ShipClass>BREL2</ShipClass>
+            <Factions>
+                <Faction>Klingon</Faction>
+            </Factions>
+            <Attack>4</Attack>
+            <Agility>1</Agility>
+            <Hull>3</Hull>
+            <Shield>3</Shield>
+            <Text>When you initiate an attack at Range 1, while Cloaked, your opponent rolls -1
+                defense die. You cannot deploy this card to the same fleet as "Assimilated Vessel
+                80279."
+            </Text>
+            <Cost>22</Cost>
+            <Actions>
+                <Action>TargetLock</Action>
+                <Action>Cloak</Action>
+                <Action>SensorEcho</Action>
+                <Action>Evasive</Action>
+            </Actions>
+            <Borg>0</Borg>
+            <Tech>1</Tech>
+            <Weapon>2</Weapon>
+            <Crew>1</Crew>
+            <Id>korok_s_bird_of_prey_71512</Id>
+            <Releases>
+                <Release>R71512</Release>
+            </Releases>
+        </Ship>
     </shipList>
 </Ships>
