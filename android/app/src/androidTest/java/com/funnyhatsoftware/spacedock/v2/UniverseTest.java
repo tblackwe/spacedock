@@ -2,11 +2,11 @@ package com.funnyhatsoftware.spacedock.v2;
 
 import android.test.AndroidTestCase;
 
-import com.funnyhatsoftware.spacedock.v2.datatype.ShipClass;
-import com.funnyhatsoftware.spacedock.v2.model.entity.card.Admiral;
-import com.funnyhatsoftware.spacedock.v2.model.entity.card.Captain;
-import com.funnyhatsoftware.spacedock.v2.model.entity.card.Ship;
-import com.funnyhatsoftware.spacedock.v2.model.entity.card.ShipClassDetail;
+import com.funnyhatsoftware.spacedock.datatype.ShipClass;
+import com.funnyhatsoftware.spacedock.v2.model2.entity.card.Admiral;
+import com.funnyhatsoftware.spacedock.v2.model2.entity.card.Captain;
+import com.funnyhatsoftware.spacedock.v2.model2.entity.card.Ship;
+import com.funnyhatsoftware.spacedock.v2.model2.entity.card.ShipClassDetail;
 
 import junit.framework.Assert;
 
