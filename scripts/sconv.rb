@@ -44,14 +44,8 @@ end
 
 # Timestamp	Uniqueness	Ship Name	Faction	Ship Class	Attack	Agility	Hull	Shield	Ability	Action Bar	Cost	Borg Upgrade Slots	Crew Upgrade Slots	Tech Upgrade Slots	Weapon Upgrade Slots	Expansion Pack	Maneuver Grid	Firing Arcs	Build/Price Adjustment	Green Maneuvers	White Maneuvers	Red Maneuvers										
 ship = <<-SHIPTEXT
-7/18/2015 18:51:11	72009 - IKS T'Ong	Unique	I.K.S. T'Ong	Klingon	K'Tinga Class	K'Tinga Class				4	1	4	3	When attacking a ship with your Primary Weapon that has a larger Hull value and/or Primary Weapon value than your ship, gain +1 attack die.	Cloak, Evasive, Sensor Echo, Target Lock	24	0	1	1	2	90-degree forward, 90-degree rear		0
-7/19/2015 16:56:38	72001 - USS Bellerophon	Unique	U.S.S. Bellerophon	Federation	Intrepid Class	Intrepid Class				4	2	4	5	When defending, during the Compare Results step, you may disable 2 of your Active Shields to cancel 1 of the attacking ship's [HIT] results.	Battle Stations, Evasive, Scan, Target Lock	30	0	2	1	2	90-degree forward, 90-degree rear		0
-7/25/2015 14:18:06	72010 - IRW Vrax	Unique	I.R.W. Vrax	Romulan	Valdore Class	Valdore Class				4	2	6	3	If you reveal a 4 [FORWARD] maneuver, immediately before you move, you may change it to a 4 Bank maneuver.  Treat this as a Red Maneuver.	Cloak, Evasive, Sensor Echo, Target Lock	30	0	2	0	2	90-degree forward		0
-7/30/2015 13:01:22	72001 - USS Bellerophon	Non-unique	Federation Starship	Federation	Intrepid Class	Intrepid Class				4	2	4	4		Battle Stations, Evasive, Scan, Target Lock	28	0	1	1	2	90-degree forward, 90-degree rear		0
-7/30/2015 13:05:18	72010 - IRW Vrax	Non-unique	Romulan Starship	Romulan	Valdore Class	Valdore Class				4	2	6	2		Cloak, Evasive, Sensor Echo, Target Lock	28	0	2	0	1	90-degree forward		0
-7/30/2015 13:05:57	72009 - IKS T'Ong	Non-unique	Klingon Starship	Klingon	K'Tinga Class	K'Tinga Class				4	1	4	2		Cloak, Evasive, Sensor Echo, Target Lock	22	0	1	1	1	90-degree forward, 90-degree rear		0
-7/30/2015 14:43:56	72008 - USS Thunderchild	Unique	U.S.S. Thunderchild	Federation	Akira Class		1 Bank, 1 Forward, 2 Forward	2 Turn, 2 Bank, 3 Bank, 3 Forward, 4 Forward	3 Turn, 3 Come About	4	2	5	3	Each time you defend, if you take no damage from an attack, you may immediately roll 1 attack die. A [HIT] or [CRIT] result damages the attacking ship.	Battle Stations, Evasive, Scan, Target Lock	28	0	1	0	3	90-degree forward		0
-7/30/2015 14:44:34	72008 - USS Thunderchild	Non-unique	Federation Starship	Federation	Akira Class	Akira Class				4	2	5	2		Battle Stations, Evasive, Scan, Target Lock	26	0	1	0	2	90-degree forward		0
+9/3/2015 14:04:42	72011 - USS Phoenix	Non-unique	Federation Starship	Federation	Nebula Class	Nebula Class				4	1	4	3		Battle Stations, Evasive, Scan, Target Lock	24	0	1	1	2	90-degree forward		0
+9/3/2015 14:06:05	72011 - USS Phoenix	Unique	U.S.S. Phoenix	Federation	Nebula Class	Nebula Class				4	1	4	4	Before you move, you may change your maneuver to another maneuver on your Maneuver Dial with the same speed.  If you do so, place an Auxiliary Power Token beside your ship.	Battle Stations, Evasive, Scan, Target Lock	26	0	2	1	2	90-degree forward		0
 SHIPTEXT
 
 
