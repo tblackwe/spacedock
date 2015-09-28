@@ -126,7 +126,7 @@ public class EditSquadAdapter extends BaseExpandableListAdapter implements
             } else if (i == fleetCaptainIndex || fleetCaptainUnassigned) {
                 populateLookup(l, 1, R.string.fleetcaptain_slot, EquippedShip.SLOT_TYPE_FLEET_CAPTAIN);
             }
-            if (!s.isResourceSideboard()) {
+            if (!s.isResourceSideboard() && !s.isShuttle()) {
                 if (i == admiralIndex || 0 > admiralIndex) {
                     populateLookup(l, s.getCaptainLimit(), R.string.admiral_slot,
                             EquippedShip.SLOT_TYPE_ADMIRAL);
@@ -140,6 +140,7 @@ public class EditSquadAdapter extends BaseExpandableListAdapter implements
             populateLookup(l, s.getTech(), R.string.tech_slot, EquippedShip.SLOT_TYPE_TECH);
             populateLookup(l, s.getBorg(), R.string.borg_slot, EquippedShip.SLOT_TYPE_BORG);
             populateLookup(l, s.getSquadron(), R.string.squadron_slot, EquippedShip.SLOT_TYPE_SQUADRON);
+            populateLookup(l, s.getOfficerLimit(), R.string.officer_slot, EquippedShip.SLOT_TYPE_OFFICER);
             mShipLookup[i] = l;
         }
     }

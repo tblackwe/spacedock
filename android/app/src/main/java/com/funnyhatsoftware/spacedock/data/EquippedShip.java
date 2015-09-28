@@ -37,6 +37,8 @@ public class EquippedShip extends EquippedShipBase {
         return (mShip == null);
     }
 
+    public boolean isShuttle() { return mShip.isShuttle(); }
+
     public String getShipExternalId() {
         if (mShip == null) {
             return "[sideboard]";
@@ -340,10 +342,13 @@ public class EquippedShip extends EquippedShipBase {
         if (flagship != null) {
             v += flagship.getTalent();
         }
-        if (getCaptain().getExternalId().equals("brunt_72013")){
+        if (getCaptain() != null && getCaptain().getExternalId().equals("brunt_72013")){
             v += 1;
         }
-        if (getCaptain().isKazon() && getShip().isKazon()) {
+        if (getCaptain() != null && getCaptain().getExternalId().equals("lovok_72221a")){
+            v += 1;
+        }
+        if (getCaptain() != null && getCaptain().isKazon() && getShip().isKazon()) {
             v += 1;
         }
         return v;
@@ -475,6 +480,7 @@ public class EquippedShip extends EquippedShipBase {
         establishPlaceholdersForType("Tech", getTech());
         establishPlaceholdersForType("Borg", getBorg());
         establishPlaceholdersForType("Squadron", getSquadron());
+        establishPlaceholdersForType("Officer", getOfficerLimit());
     }
 
     private void establishPlaceholdersForType(String upType, int limit) {
@@ -702,6 +708,11 @@ public class EquippedShip extends EquippedShipBase {
                 return new Explanation(msg, "This upgrade can only be added to a Bajoran ship.");
             }
         }
+        if ("OnlyBajoranFederation".equals(upgradeSpecial)) {
+            if (!ship.isBajoran() && !ship.isFederation()) {
+                return new Explanation(msg, "This upgrade can only be added to a Bajoran or Federation ship.");
+            }
+        }
         if ("OnlyKlingon".equals(upgradeSpecial)) {
             if (!ship.isKlingon()) {
                 return new Explanation(msg, "This upgrade can only be added to a Klingon ship.");
@@ -718,6 +729,22 @@ public class EquippedShip extends EquippedShipBase {
             }
             if (!ship.isBajoran()) {
                 return new Explanation(msg, "This upgrade can only be added to a Bajoran ship.");
+            }
+        }
+        if ("NoMoreThanOnePerShipBajoranInterceptor".equals(upgradeSpecial)) {
+            if (addingNew && null != containsUpgrade(upgrade)) {
+                return new Explanation(msg, "This upgrade can only be added once per ship.");
+            }
+            if (!ship.getShipClass().equals("Bajoran Interceptor")) {
+                return new Explanation(msg, "This upgrade can only be added to a Bajoran Interceptor.");
+            }
+        }
+        if ("NoMoreThanOnePerShipBajoranScout".equals(upgradeSpecial)) {
+            if (addingNew && null != containsUpgrade(upgrade)) {
+                return new Explanation(msg, "This upgrade can only be added once per ship.");
+            }
+            if (!ship.getShipClass().equals("Bajoran Scout Ship")) {
+                return new Explanation(msg, "This upgrade can only be added to a Bajoran Scout Ship.");
             }
         }
         if ("NoMoreThanOnePerShipKlingon".equals(upgradeSpecial)) {
@@ -903,6 +930,12 @@ public class EquippedShip extends EquippedShipBase {
                                 "K'Temoc may only field Klingon [TALENT] upgrades.");
                     }
                 }
+                if (upgradeSpecial.equals("OnlyKazonCaptainShip")) {
+                    if (!captain.isKazon() || !ship.isKazon()) {
+                        return new Explanation(msg,
+                                "This upgrade can only be added to a Kazon Captain on a Kazon Ship.");
+                    }
+                }
             }
 
             if (upgradeSpecial.equals("OnlyTholianCaptain")) {
@@ -926,6 +959,13 @@ public class EquippedShip extends EquippedShipBase {
                 }
             }
 
+            if ("OnlyRomulanCaptain".equals(upgradeSpecial)){
+                if (!captain.isRomulan()){
+                    return new Explanation(msg,
+                            "This upgrade can only be added to a Romulan captain.");
+                }
+            }
+
             if ("OnlyFederationCaptainShip".equals(upgradeSpecial)) {
                 if (!captain.isFederation() || !ship.isFederation()) {
                     return new Explanation(msg,
@@ -934,7 +974,7 @@ public class EquippedShip extends EquippedShipBase {
             }
 
             if (upgrade.isTalent() && !upgrade.isPlaceholder()) {
-                if (getCaptain().getExternalId().equals("brunt_72013")) {
+                if (getCaptain() != null && getCaptain().getExternalId().equals("brunt_72013")) {
                     int limit = getTalent();
                     if (limit == 1) {
                         if (!upgrade.getTitle().equals("Grand Nagus")) {
@@ -951,6 +991,27 @@ public class EquippedShip extends EquippedShipBase {
                             if (addingNew && !upgrade.getTitle().equals("Grand Nagus")) {
                                 return new Explanation(msg,
                                         "Brunt may only field the Grand Nagus [TALENT] Upgrade");
+                            }
+                        }
+                    }
+                }
+                if (getCaptain() != null && getCaptain().getExternalId().equals("lovok_72221a")) {
+                    int limit = getTalent();
+                    if (limit == 1) {
+                        if (!upgrade.getTitle().equals("Tal Shiar")) {
+                            return new Explanation(msg,
+                                    "Lovok may only field the Tal Shiar [TALENT] Upgrade");
+                        }
+                    } else {
+                        for (EquippedUpgrade eu : mUpgrades) {
+                            if (!eu.isPlaceholder() && eu.getUpgrade().isTalent()) {
+                                limit--;
+                            }
+                        }
+                        if (limit <= 1 && containsUpgradeWithName("Tal Shiar") == null) {
+                            if (addingNew && !upgrade.getTitle().equals("Tal Shiar")) {
+                                return new Explanation(msg,
+                                        "Lovok may only field the Tal Shiar [TALENT] Upgrade");
                             }
                         }
                     }
@@ -983,6 +1044,20 @@ public class EquippedShip extends EquippedShipBase {
             }
         }
 
+        if (ship.isShuttle() && upgrade.isWeapon() && !upgrade.getExternalId().equals("3007")) {
+            EquippedUpgrade tmpEu = new EquippedUpgrade();
+            tmpEu.setUpgrade(upgrade);
+            if (ship.getExternalId().equals("delta_flyer_72014")) {
+                if (upgrade.calculateCostForShip(this,tmpEu) > 4) {
+                    return new Explanation(msg, "You cannot deploy a [WEAPON] Upgrade with a cost greater than 4 to the Delta Flyer.");
+                }
+            } else {
+                if (upgrade.calculateCostForShip(this, tmpEu) > 3) {
+                    return new Explanation(msg, "You cannot deploy a [WEAPON] Upgrade with a cost greater than 3 to a shuttlecraft.");
+                }
+            }
+        }
+
         int limit = upgrade.limitForShip(this);
         if (limit <= 0) {
             String expl;
@@ -997,6 +1072,7 @@ public class EquippedShip extends EquippedShipBase {
             }
             return new Explanation(msg, expl);
         }
+
         return Explanation.SUCCESS;
     }
 
@@ -1026,7 +1102,7 @@ public class EquippedShip extends EquippedShipBase {
         int crewCount = crewUpgrades.size();
         ArrayList<EquippedUpgrade> officerUpgrades = allUpgradesOfType(Constants.OFFICER_TYPE);
         int limit = getOfficerLimit();
-        if (officerUpgrades.size() >= limit) {
+        if (officerUpgrades.size() > limit) {
             String msg = String.format("Can't add %s to the selected squadron.", officer.getTitle());
             String info = null;
             if (crewCount > 0) {
@@ -1199,12 +1275,13 @@ public class EquippedShip extends EquippedShipBase {
     public static final int SLOT_TYPE_ADMIRAL = 7;
     public static final int SLOT_TYPE_FLEET_CAPTAIN = 8;
     public static final int SLOT_TYPE_SQUADRON = 9;
+    public static final int SLOT_TYPE_OFFICER = 10;
     public static final int SLOT_TYPE_SHIP = 1000;
 
     public static Class[] CLASS_FOR_SLOT = new Class[]{
             Captain.class,
             Crew.class, Weapon.class, Tech.class, Borg.class, Talent.class,
-            Flagship.class, Admiral.class, FleetCaptain.class, Squadron.class
+            Flagship.class, Admiral.class, FleetCaptain.class, Squadron.class, Officer.class
     };
 
     private int getUpgradeIndexOfClass(Class slotClass, int slotIndex) {
@@ -1321,6 +1398,17 @@ public class EquippedShip extends EquippedShipBase {
                     return explanation; // disallowed, abort!
                 }
                 upgrade = fleetCaptain;
+            } else if (SLOT_TYPE_OFFICER == slotType) {
+                Officer officer = Universe.getUniverse().getOfficer(externalId);
+                Explanation explanation = squad.canAddUpgrade(officer, this);
+                if (!explanation.canAdd) {
+                    return explanation; // disallowed, abort!
+                }
+                explanation = canAddOfficer(officer);
+                if (!explanation.canAdd) {
+                    return explanation;
+                }
+                upgrade = officer;
             } else {
                 upgrade = SLOT_TYPE_ADMIRAL == slotType ? Universe
                         .getUniverse().getAdmiral(externalId) : Universe

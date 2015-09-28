@@ -231,6 +231,10 @@ public class Ship extends ShipBase implements Factioned, Uniqueness {
         return DataUtils.targetHasFaction(Constants.MIRROR_UNIVERSE, this);
     }
 
+    public boolean isXindi() {
+        return DataUtils.targetHasFaction(Constants.XINDI, this);
+    }
+
     public boolean isVoyager() {
         return mTitle.equals("U.S.S. Voyager");
     }
@@ -271,6 +275,18 @@ public class Ship extends ShipBase implements Factioned, Uniqueness {
         return "Regent's Flagship".equals(mTitle);
     }
 
+    public boolean isShuttle() {
+        if (getShipClass().equals("Type 7 Shuttlecraft")) {
+            return true;
+        }
+        if (getShipClass().equals("Ferengi Shuttle")) {
+            return true;
+        };
+        if (getShipClass().equals("Delta Flyer Class Shuttlecraft")) {
+            return true;
+        }
+        return false;
+    }
     public boolean isFighterSquadron() {
         String shipId = getExternalId();
         if (shipId != null) {

@@ -265,13 +265,13 @@ NSString* asDegrees(NSString* textValue)
 
 -(BOOL)isShuttle
 {
-    if ([self.externalId isEqualToString: @"sakharov_71997p"]) {
+    if ([self.shipClass isEqualToString: @"Type 7 Shuttlecraft"]) {
         return YES;
     }
-    if ([self.externalId isEqualToString: @"sakharov_c_71997p"]) {
+    if ([self.shipClass isEqualToString: @"Ferengi Shuttle"]) {
         return YES;
     }
-    if ([self.externalId isEqualToString: @"federation_starship_71997p"]) {
+    if ([self.shipClass isEqualToString: @"Delta Flyer Class Shuttlecraft"]) {
         return YES;
     }
     return NO;
@@ -392,6 +392,11 @@ NSString* asDegrees(NSString* textValue)
 -(BOOL)isDominion
 {
     return targetHasFaction(@"Dominion", self);
+}
+
+-(BOOL)isXindi
+{
+    return targetHasFaction(@"Xindi", self);
 }
 
 -(int)techCount

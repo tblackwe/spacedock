@@ -38,11 +38,11 @@ public class DataLoader extends DefaultHandler {
     ArrayList<Object> elementStack = new ArrayList<Object>();
     HashSet<String> listElementNames = new HashSet<String>();
     HashSet<String> itemElementNames = new HashSet<String>();
-    String currentVersion;
-    String dataVersion;
-    boolean versionMatched;
-    boolean versionOnly;
-    boolean force;
+    public String currentVersion;
+    public String dataVersion;
+    public boolean versionMatched;
+    public boolean versionOnly;
+    public boolean force;
 
     public DataLoader(Universe targetUniverse, InputStream xmlTargetInput) {
         universe = targetUniverse;
@@ -87,6 +87,10 @@ public class DataLoader extends DefaultHandler {
         xr.setContentHandler(this);
 
         xr.parse(new InputSource(xmlInput));
+
+        if (versionOnly) {
+            return true;
+        }
 
         loadSets();
 
@@ -466,8 +470,19 @@ public class DataLoader extends DefaultHandler {
                 "Add2HiddenCrew5",
                 "OnlyGrandNagusTalent",
                 "AddTwoWeaponSlotsAndNoMoreThanOnePerShip",
-                "Hull4NoRearPlus5NonFed"
-
+                "Hull4NoRearPlus5NonFed",
+                "no_faction_penalty_on_vulcan",
+                "limited_max_weapon_3AndPlus5NonFed",
+                "Plus5NotDominionAndNoMoreThanOnePerShip",
+                "Plus5NotKlingon",
+                "Plus5NotXindi",
+                "OnlyTalShiarTalent",
+                "OnlyRomulanCaptain",
+                "OnlyBajoranFederation",
+                "OnlyKazonCaptainShip",
+                "Plus4NotVulcan",
+                "Plus3NotFederationNoMoreThanOnePerShip",
+                "Plus5NotFederationNoMoreThanOnePerShip"
         };
 
         TreeSet<String> unhandledSpecials = new TreeSet<String>(allSpecials);
@@ -512,13 +527,13 @@ public class DataLoader extends DefaultHandler {
     }
 
     interface ItemCreator {
-        public SetItem create(String type);
+        SetItem create(String type);
 
-        public SetItem get(String externalId);
+        SetItem get(String externalId);
 
-        public void put(String externalId, SetItem s);
+        void put(String externalId, SetItem s);
 
-        public void afterUpdate(SetItem s);
+        void afterUpdate(SetItem s);
     }
 
     @SuppressWarnings("unchecked")
@@ -703,6 +718,6 @@ public class DataLoader extends DefaultHandler {
 
     private void abortParsing() {
         // TODO abort parsing
-        throw new RuntimeException("version only stop parsing");
+        //throw new RuntimeException("version only stop parsing");
     }
 }

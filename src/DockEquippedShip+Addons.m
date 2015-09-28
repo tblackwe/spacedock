@@ -625,6 +625,30 @@
         }
     }
     
+    if (![upgrade isPlaceholder] && [upgrade isTalent] && [self.captain.externalId isEqualToString:@"lovok_72221a"]) {
+        if (self.talentCount == 1) {
+            if (![upgrade.title isEqualToString:@"Tal Shiar"]) {
+                return NO;
+            }
+        } else {
+            int talents = self.talentCount;
+            for (DockEquippedUpgrade* eu in self.sortedUpgrades) {
+                if ([eu.upgrade isTalent] && !eu.isPlaceholder) {
+                    if ([eu.upgrade isTalent] && !eu.isPlaceholder) {
+                        talents --;
+                    }
+                }
+            }
+            if (talents == 1 && ![upgrade.title isEqualToString:@"Tal Shiar"]) {
+                if ([self containsUpgradeWithName:@"Tal Shiar"] == nil && validating) {
+                    return NO;
+                }
+            } else if (talents < 1 && ![upgrade.title isEqualToString:@"Tal Shiar"]) {
+                return NO;
+            }
+        }
+    }
+    
     if (!upgrade.isPlaceholder && [upgrade isTech] && [self.captain.externalId isEqualToString:@"tahna_los_op6prize"]) {
         int tech = self.techCount;
         
@@ -787,10 +811,16 @@
         }
     }
     
-    if ([upgrade isWeapon]) {
+    if ([upgrade isWeapon] && ![upgrade.externalId isEqualToString:@"3007"]) {
         if ([self.ship isShuttle]) {
-            if ( [upgrade costForShip:self] > 3 ) {
-                return NO;
+            if ( [self.ship.externalId isEqualToString:@"delta_flyer_72014"]) {
+                if ( [upgrade costForShip:self] > 4) {
+                    return NO;
+                }
+            } else {
+                if ([upgrade costForShip:self] > 3 ) {
+                    return NO;
+                }
             }
         }
     }
@@ -824,6 +854,12 @@
             return NO;
         }
     }
+    
+    if ([upgradeSpecial isEqualToString: @"OnlyBajoranFederation"]) {
+        if (![self.ship isBajoran] && ![self.ship isFederation]) {
+            return NO;
+        }
+    }
 
     if ([upgradeSpecial isEqualToString: @"OnlyDominionCaptain"]) {
         if (![self.captain isDominion]) {
@@ -851,6 +887,12 @@
 
     if ([upgradeSpecial isEqualToString: @"OnlyKazonShip"]) {
         if (![self.ship isKazon]) {
+            return NO;
+        }
+    }
+    
+    if ([upgradeSpecial isEqualToString: @"OnlyKazonCaptainShip"]) {
+        if (![self.ship isKazon] || ![self.captain isKazon]) {
             return NO;
         }
     }
@@ -986,7 +1028,7 @@
             return NO;
         }
     }
-    if ([upgradeSpecial isEqualToString:@"limited_max_weapon_3"]) {
+    if ([upgradeSpecial isEqualToString:@"limited_max_weapon_3"] || [upgradeSpecial isEqualToString:@"limited_max_weapon_3AndPlus5NonFed"]) {
         if ([self.ship.attack intValue] > 3) {
             return NO;
         }
@@ -1026,8 +1068,20 @@
         }
     }
     
+    if ([upgradeSpecial isEqualToString:@"NoMoreThanOnePerShipBajoranInterceptor"]) {
+        if (![self.ship.shipClass isEqualToString:@"Bajoran Interceptor"]) {
+            return NO;
+        }
+    }
+    
+    if ([upgradeSpecial isEqualToString:@"NoMoreThanOnePerShipBajoranScout"]) {
+        if (![self.ship.shipClass isEqualToString:@"Bajoran Scout Ship"]) {
+            return NO;
+        }
+    }
+    
     if (validating) {
-        if ([upgradeSpecial isEqualToString: @"OnlyBorgShipAndNoMoreThanOnePerShip"] || [upgradeSpecial hasPrefix: @"NoMoreThanOnePerShip"] || [upgradeSpecial hasPrefix: @"ony_federation_ship_limited"] || [upgradeSpecial isEqualToString: @"only_suurok_class_limited_weapon_hull_plus_1"] || [upgradeSpecial isEqualToString:@"ony_mu_ship_limited"] || [upgradeSpecial isEqualToString:@"limited_max_weapon_3"] || [upgradeSpecial hasSuffix:@"NoMoreThanOnePerShip"]) {
+        if ([upgradeSpecial isEqualToString: @"OnlyBorgShipAndNoMoreThanOnePerShip"] || [upgradeSpecial hasPrefix: @"NoMoreThanOnePerShip"] || [upgradeSpecial hasPrefix: @"ony_federation_ship_limited"] || [upgradeSpecial isEqualToString: @"only_suurok_class_limited_weapon_hull_plus_1"] || [upgradeSpecial isEqualToString:@"ony_mu_ship_limited"] || [upgradeSpecial isEqualToString:@"limited_max_weapon_3"] || [upgradeSpecial hasSuffix:@"NoMoreThanOnePerShip"] || [upgradeSpecial isEqualToString:@"limited_max_weapon_3AndPlus5NonFed"]) {
             DockEquippedUpgrade* existing = [self containsUpgradeWithId: upgrade.externalId];
             if (existing != nil) {
                 return NO;
@@ -1200,8 +1254,10 @@
             }
         } else {
             NSString* upgradeSpecial = upgrade.special;
-            if ([upgrade isTalent] && [self.captain.externalId isEqualToString:@"brunt_72013"] && ![upgrade.title isEqualToString:@"grand_nagus_72013"]) {
+            if ([upgrade isTalent] && [self.captain.externalId isEqualToString:@"brunt_72013"] && ![upgrade.title isEqualToString:@"Grand Nagus"]) {
                 info = @"Brunt may only deploy the Grand Nagus [TALENT].";
+            } else if ([upgrade isTalent] && [self.captain.externalId isEqualToString:@"lovok_72221a"] && ![upgrade.title isEqualToString:@"Tal Shiar"]) {
+                info = @"Lovok may only deploy the Tal Shiar [TALENT].";
             } else if ([upgrade.externalId isEqualToString:@"first_maje_71793"]) {
                 info = @"This upgrade can only be purchased for a Kazon captain on a Kazon ship.";
             } else if ([upgrade isTalent] && [self.captain isKazon] && [self.ship isKazon] && self.talentCount == 1) {
@@ -1220,6 +1276,8 @@
                 info = @"This upgrade can only be added to Species 8472 ships.";
             } else if ([upgradeSpecial isEqualToString: @"OnlyKazonShip"]) {
                 info = @"This upgrade can only be added to Kazon ships.";
+            } else if ([upgradeSpecial isEqualToString: @"OnlyKazonCaptainShip"]) {
+                info = @"This upgrade can only be added to a Kazon Captain on a Kazon ship.";
             } else if ([upgradeSpecial isEqualToString: @"OnlyBorgShip"]) {
                 info = @"This upgrade can only be added to Borg ships.";
             } else if ([upgradeSpecial isEqualToString: @"only_vulcan_ship"]) {
@@ -1289,6 +1347,11 @@
                 if ([self containsUpgradeWithId:upgrade.externalId]) {
                     info = @"No ship may be equipped with more than one of these upgrades.";
                 }
+            } else if ([upgradeSpecial isEqualToString:@"limited_max_weapon_3AndPlus5NonFed"]) {
+                info = @"You may only deploy this upgrade to a ship with a Primary Weapon Value of 3 or less.";
+                if ([self containsUpgradeWithId:upgrade.externalId]) {
+                    info = @"No ship may be equipped with more than one of these upgrades.";
+                }
             } else if ([self containsUpgradeWithId:@"cargo_hold_11_72013"] != nil || [self containsUpgradeWithId:@"cargo_hold_20_72013"] != nil) {
                 if ([upgrade isCrew] && [upgrade costForShip:self] > 4) {
                     info = @"You may only deploy [CREW] upgrades with a cost of 4 or less for Cargo Hold.";
@@ -1303,6 +1366,10 @@
                 } else if (![self.ship.shipClassDetails.rearArc isEqualToString:@""]) {
                     info = @"You may only deploy this upgrade to a ship without a rear firing arc.";
                 }
+            } else if ([upgradeSpecial isEqualToString:@"NoMoreThanOnePerShipBajoranInterceptor"]) {
+                info = @"You may only deploy this upgrade to a Bajoran Interceptor";
+            } else if ([upgradeSpecial isEqualToString:@"NoMoreThanOnePerShipBajoranScout"]) {
+                info = @"You may only deploy this upgrade to a Bajoran Scout Ship";
             }
         }
     }
@@ -1806,7 +1873,7 @@
     if ([self.captain isKazon] && [self.ship isKazon]) {
         talentCount ++;
     }
-    if ([self.captain.externalId isEqualToString:@"slar_71797"] || [self.captain.externalId isEqualToString:@"kurn_71999p"] || [self.captain.externalId isEqualToString:@"brunt_72013"]) {
+    if ([self.captain.externalId isEqualToString:@"slar_71797"] || [self.captain.externalId isEqualToString:@"kurn_71999p"] || [self.captain.externalId isEqualToString:@"brunt_72013"] || [self.captain.externalId isEqualToString:@"lovok_72221a"]) {
         talentCount ++;
     }
     return talentCount;

@@ -24,10 +24,11 @@ end
 def process_maneuvers(moves, maneuver_string, color)
   unless maneuver_string == nil
     maneuver_string = maneuver_string.downcase.gsub("forward", "straight")
+    maneuver_string = maneuver_string.downcase.gsub("come about", "about")
     maneuvers = maneuver_string.split(/\s*,\s*/)
     maneuvers.each do |one_move|
       speed, kind = one_move.split(/\s+/)
-      if kind == "straight" || kind == "flank" || kind == "stop"
+      if kind == "straight" || kind == "flank" || kind == "stop" || kind == "about"
         moves.push({:color => color, :speed => speed.to_i, :kind => kind, :column => 2})
       elsif kind == "rotate"
         moves.push({:color => color, :speed => 0, :kind => speed + "-" + kind, :column => 2})
@@ -44,8 +45,8 @@ end
 
 # Timestamp	Uniqueness	Ship Name	Faction	Ship Class	Attack	Agility	Hull	Shield	Ability	Action Bar	Cost	Borg Upgrade Slots	Crew Upgrade Slots	Tech Upgrade Slots	Weapon Upgrade Slots	Expansion Pack	Maneuver Grid	Firing Arcs	Build/Price Adjustment	Green Maneuvers	White Maneuvers	Red Maneuvers										
 ship = <<-SHIPTEXT
-9/3/2015 14:04:42	72011 - USS Phoenix	Non-unique	Federation Starship	Federation	Nebula Class	Nebula Class				4	1	4	3		Battle Stations, Evasive, Scan, Target Lock	24	0	1	1	2	90-degree forward		0
-9/3/2015 14:06:05	72011 - USS Phoenix	Unique	U.S.S. Phoenix	Federation	Nebula Class	Nebula Class				4	1	4	4	Before you move, you may change your maneuver to another maneuver on your Maneuver Dial with the same speed.  If you do so, place an Auxiliary Power Token beside your ship.	Battle Stations, Evasive, Scan, Target Lock	26	0	2	1	2	90-degree forward		0
+9/24/2015 10:37:15	72014 - Delta Flyer	Non-unique	Federation Starship	Federation	Delta Flyer Class Shuttlecraft		1 Bank, 1 Forward, 2 Bank, 2 Forward	1 Turn, 2 Turn, 3 Bank, 3 Forward, 1 Come About, 2 Come About		3	2	2	2	You may deploy [WEAPON] Upgrades with a cost of 4 SP or less to this ship.	Evasive, Scan, Target Lock	18	0	1	1	1	90-degree forward, 90-degree rear		0
+9/24/2015 10:38:05	72014 - Delta Flyer	Unique	Delta Flyer	Federation	Delta Flyer Class Shuttlecraft	Delta Flyer Class Shuttle				3	2	2	3	You may deploy [WEAPON] Upgrades with a cost of 4 SP or less to this ship.  You may fire your Primary Weapon from your rear firing arc at -1 attack die.	Evasive, Scan, Target Lock	20	0	2	1	1	90-degree forward, 90-degree rear		0
 SHIPTEXT
 
 

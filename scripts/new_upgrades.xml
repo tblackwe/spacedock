@@ -1,22 +1,6 @@
     <Upgrade>
-      <Title>Prefix Code</Title>
-      <Ability>ACTION: Discard this card to target a ship at Range 1-2 of your ship. Disable up to 2 Shield Tokens on the target ship. Place an Auxiliary Power Token beside your ship.</Ability>
-      <Unique>Y</Unique>
-      <MirrorUniverseUnique>N</MirrorUniverseUnique>
-      <Skill></Skill>
-      <Talent></Talent>
-      <Attack></Attack>
-      <Range></Range>
-      <Type>Talent</Type>
-      <Faction>Federation</Faction>
-      <Cost>5</Cost>
-      <Id>prefix_code_72011</Id>
-      <Set>72011</Set>
-      <Special></Special>
-    </Upgrade>
-    <Upgrade>
-      <Title>Terry</Title>
-      <Ability>ACTION: Disable this card and 2 of your Active Shields to repair 1 damage to your ship's Hull.</Ability>
+      <Title>B'Elanna Torres</Title>
+      <Ability>When defending, during the Compare Results step, you may disable this card and 1 of your Active Shields to cancel 1 [HIT] or [CRIT] result.</Ability>
       <Unique>Y</Unique>
       <MirrorUniverseUnique>N</MirrorUniverseUnique>
       <Skill></Skill>
@@ -26,13 +10,13 @@
       <Type>Crew</Type>
       <Faction>Federation</Faction>
       <Cost>4</Cost>
-      <Id>terry_72011</Id>
-      <Set>72011</Set>
+      <Id>b_elanna_torres_72014</Id>
+      <Set>72014</Set>
       <Special></Special>
     </Upgrade>
     <Upgrade>
-      <Title>Elizabeth Lense</Title>
-      <Ability>At any time, you may discard this card to remove 1 disabled Upgrade Token from one of your [CREW] or [TECH] Upgrades and then place 2 Time Tokens on that Upgrade.</Ability>
+      <Title>Harry Kim</Title>
+      <Ability>ACTION: Disable this card to place 2 [EVADE] Tokens beside your ship. You cannot roll any defense dice this round. You cannot perform an [EVADE] Action this round, even as a free Action.</Ability>
       <Unique>Y</Unique>
       <MirrorUniverseUnique>N</MirrorUniverseUnique>
       <Skill></Skill>
@@ -41,14 +25,62 @@
       <Range></Range>
       <Type>Crew</Type>
       <Faction>Federation</Faction>
-      <Cost>1</Cost>
-      <Id>elizabeth_lense_72011</Id>
-      <Set>72011</Set>
+      <Cost>3</Cost>
+      <Id>harry_kim_72014</Id>
+      <Set>72014</Set>
       <Special></Special>
     </Upgrade>
     <Upgrade>
-      <Title>High Energy Sensor Sweep</Title>
-      <Ability>After you move, you may disable 1 Active Shield to perform a free [SCAN] Action. No ship may be equipped with more than 1 High Energy Sensor Sweep Upgrade.</Ability>
+      <Title>Seven of Nine</Title>
+      <Ability>During the Activation Phase, you may disable this card to perform a [BATTLESTATIONS] Action as a free Action.</Ability>
+      <Unique>Y</Unique>
+      <MirrorUniverseUnique>N</MirrorUniverseUnique>
+      <Skill></Skill>
+      <Talent></Talent>
+      <Attack></Attack>
+      <Range></Range>
+      <Type>Crew</Type>
+      <Faction>Federation</Faction>
+      <Cost>4</Cost>
+      <Id>seven_of_nine_72014</Id>
+      <Set>72014</Set>
+      <Special></Special>
+    </Upgrade>
+    <Upgrade>
+      <Title>Parametallic Hull Plating</Title>
+      <Ability>During the Compare Results step, you may discard this card to cancel 1 [HIT] or [CRIT] result. This Upgrade costs +3 SP for any non-Federation ship and no ship may be equipped with more than 1 "Parametallic Hull Plating" Upgrade.</Ability>
+      <Unique>N</Unique>
+      <MirrorUniverseUnique>N</MirrorUniverseUnique>
+      <Skill></Skill>
+      <Talent></Talent>
+      <Attack></Attack>
+      <Range></Range>
+      <Type>Tech</Type>
+      <Faction>Federation</Faction>
+      <Cost>2</Cost>
+      <Id>parametallic_hull_plating_72014</Id>
+      <Set>72014</Set>
+      <Special>Plus3NotFederationNoMoreThanOnePerShip</Special>
+    </Upgrade>
+    <Upgrade>
+      <Title>Immersion Shielding</Title>
+      <Ability>Add +1 to your ship's Shield value. In addition, you may re-roll the attack die when your ship overlaps and Obstacle. This Upgrade costs +3 SP for any non-Federation ship and no ship may be equipped with more than 1 "Immersion Shielding" Upgrade.</Ability>
+      <Unique>N</Unique>
+      <MirrorUniverseUnique>N</MirrorUniverseUnique>
+      <Skill></Skill>
+      <Talent></Talent>
+      <Attack></Attack>
+      <Range></Range>
+      <Type>Tech</Type>
+      <Faction>Federation</Faction>
+      <Cost>3</Cost>
+      <Id>immersion_shielding_72014</Id>
+      <Set>72014</Set>
+      <Special>Plus3NotFederationNoMoreThanOnePerShip</Special>
+    </Upgrade>
+    <Upgrade>
+      <Title>Unimatrix Shielding</Title>
+      <Ability>Add +2 to your ship's Shield value. When defending against an attack from a Borg ship, during the Compare Results step, you may disable up to 2 of your Active Shields to cancel an equal number of [HIT] or [CRIT] results. This Upgrade costs +5 SP for any non-Federation ship and no ship may be equipped with more than 1 "Unimatrix Shielding" Upgrade.</Ability>
       <Unique>N</Unique>
       <MirrorUniverseUnique>N</MirrorUniverseUnique>
       <Skill></Skill>
@@ -58,61 +90,29 @@
       <Type>Tech</Type>
       <Faction>Federation</Faction>
       <Cost>5</Cost>
-      <Id>high_energy_sensor_sweep_72011</Id>
-      <Set>72011</Set>
-      <Special>NoMoreThanOnePerShip</Special>
+      <Id>unimatrix_shielding_72014</Id>
+      <Set>72014</Set>
+      <Special>Plus5NotFederationNoMoreThanOnePerShip</Special>
     </Upgrade>
     <Upgrade>
-      <Title>Aft Torpedo Launcher</Title>
-      <Ability>You may fill one of your [CREW], [TECH] or [WEAPON] Upgrade slots with this card. When attacking with a Photon Torpedoes Upgrade, you may disable this card to target a ship that is not in your forward firing arc. This Upgrade may only be purchased for a ship with a Hull of 4 or greater that does not have a rear firing arc and costs +5 SP if purchased for any non-Federation ship.</Ability>
+      <Title>Photonic Missiles</Title>
+      <Ability>ATTACK: [TARGET LOCK] Spend your target lock and place 3 Time Tokens on this card to perform this attack. If this attack hits, in additional to normal damage, place an Auxiliary Power Token beside the defending ship. You may fire this weapon from your forward or rear firing arcs.</Ability>
       <Unique>N</Unique>
       <MirrorUniverseUnique>N</MirrorUniverseUnique>
       <Skill></Skill>
       <Talent></Talent>
-      <Attack></Attack>
-      <Range></Range>
-      <Type>?</Type>
+      <Attack>3</Attack>
+      <Range>1-2</Range>
+      <Type>Weapon</Type>
       <Faction>Federation</Faction>
       <Cost>3</Cost>
-      <Id>aft_torpedo_launcher_72011</Id>
-      <Set>72011</Set>
-      <Special>Hull4NoRearPlus5NonFed</Special>
-    </Upgrade>
-    <Upgrade>
-      <Title>Arsenal</Title>
-      <Ability>Add 2 [WEAPON] Upgrades to your Upgrade Bar. When placing Time Tokens on one of your other [WEAPON] Upgrades, you may place 1 of those tokens on this card. No ship may be equipped with more than 1 "Arsenal" Upgrade.</Ability>
-      <Unique>N</Unique>
-      <MirrorUniverseUnique>N</MirrorUniverseUnique>
-      <Skill></Skill>
-      <Talent></Talent>
-      <Attack></Attack>
-      <Range></Range>
-      <Type>Weapon</Type>
-      <Faction>Federation</Faction>
-      <Cost>4</Cost>
-      <Id>arsenal_72011</Id>
-      <Set>72011</Set>
-      <Special>NoMoreThanOnePerShip</Special>
-    </Upgrade>
-    <Upgrade>
-      <Title>Quantum Torpedoes</Title>
-      <Ability>ATTACK: [TARGET LOCK] Spend your target lock and place 3 Time Tokens on this card to perform this attack. If the target ship is hit, add 1 [HIT] result to your total damage. You may fire this weapon from your forward or rear firing arcs.</Ability>
-      <Unique>N</Unique>
-      <MirrorUniverseUnique>N</MirrorUniverseUnique>
-      <Skill></Skill>
-      <Talent></Talent>
-      <Attack>5</Attack>
-      <Range>2-3</Range>
-      <Type>Weapon</Type>
-      <Faction>Federation</Faction>
-      <Cost>6</Cost>
-      <Id>quantum_torpedoes_72011</Id>
-      <Set>72011,72008</Set>
+      <Id>photonic_missiles_72014</Id>
+      <Set>72014</Set>
       <Special></Special>
     </Upgrade>
     <Upgrade>
       <Title>Photon Torpedoes</Title>
-      <Ability>ATTACK: [TARGET LOCK] Spend your target lock and place 3 Time Tokens on this card to perform this attack. You may convert 1 of your [BATTLESTATIONS] results into 1 [CRIT] result. You may fire this weapon from your forward or rear firing arcs.</Ability>
+      <Ability>ATTACK: [TARGET LOCK] Spend your target lock and place 3 Time Tokens on this card to perform this attack. If fired from a shuttlecraft, discard this card instead of placing the Time Tokens and the Range is 1-2. You may fire this weapon from your forward or rear firing arcs.</Ability>
       <Unique>N</Unique>
       <MirrorUniverseUnique>N</MirrorUniverseUnique>
       <Skill></Skill>
@@ -121,8 +121,8 @@
       <Range>2-3</Range>
       <Type>Weapon</Type>
       <Faction>Federation</Faction>
-      <Cost>5</Cost>
-      <Id>photon_torpedoes_72011</Id>
-      <Set>72011</Set>
+      <Cost>4</Cost>
+      <Id>photon_torpedoes_72014</Id>
+      <Set>72014</Set>
       <Special></Special>
     </Upgrade>

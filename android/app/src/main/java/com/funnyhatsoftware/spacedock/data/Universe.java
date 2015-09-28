@@ -1,10 +1,15 @@
 package com.funnyhatsoftware.spacedock.data;
 
+import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.os.AsyncTask;
 import android.os.Environment;
 import android.support.v4.util.ArrayMap;
+import android.util.Log;
 
+import com.funnyhatsoftware.spacedock.activity.RootTabActivity;
 import com.funnyhatsoftware.spacedock.data.Captain.CaptainComparator;
 import com.funnyhatsoftware.spacedock.data.Flagship.FlagshipComparator;
 import com.funnyhatsoftware.spacedock.data.FleetCaptain.FleetCaptainComparator;
@@ -21,12 +26,18 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.xml.sax.SAXException;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -70,19 +81,136 @@ public class Universe {
     private Admiral mAdmiralPlaceholder;
     private FleetCaptain mFleetCaptainPlaceholder;
 
+    public boolean updateAvailable;
+
     static Universe sUniverse;
+    static String sVersion;
+
+    private class DownloadUpdate extends AsyncTask<String,String,String> {
+        private String mVersion;
+        public Activity activity;
+        public Context context;
+        ProgressDialog pd;
+        @Override
+        protected String doInBackground(String... strings) {
+            try {
+                File dataDir = context.getFilesDir();
+                File newData = new File(dataDir + "/new-data.xml");
+
+                URL url = new URL("http://spacedockapp.org/Data.xml");
+                URLConnection urlConnection = url.openConnection();
+                int fileSize = urlConnection.getContentLength();
+                InputStream in = new BufferedInputStream(urlConnection.getInputStream());
+                FileOutputStream fileStream = new FileOutputStream(newData);
+                OutputStream out = new BufferedOutputStream(fileStream);
+                byte[] buffer = new byte[1024];
+                int read;
+
+                while ((read = in.read(buffer)) != -1) {
+                    out.write(buffer,0,read);
+                }
+                out.flush();
+                out.close();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            if (activity != null) {
+                pd = new ProgressDialog(activity);
+                pd.setMessage("Loading Updated Game Data");
+                pd.show();
+            }
+        }
+
+        @Override
+        protected void onCancelled() {
+            pd.dismiss();
+            super.onCancelled();
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            File dataDir = context.getFilesDir();
+            File newData = new File(dataDir + "/new-data.xml");
+            File newDataXML = new File(dataDir + "/data.xml");
+
+            try {
+                InputStream in = new FileInputStream(newData);
+                DataLoader loader = new DataLoader(sUniverse, in);
+                loader.load();
+                sVersion = loader.dataVersion;
+                updateAvailable = false;
+            } catch (SAXException e) {
+                e.printStackTrace();
+            } catch (ParserConfigurationException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if (newDataXML.exists()) {
+                newDataXML.delete();
+            }
+            if (activity != null) {
+                if (activity.getClass().equals(RootTabActivity.class)) {
+                    RootTabActivity act = (RootTabActivity)activity;
+                    act.checkForUpdates(true);
+                }
+            }
+            if (pd != null) {
+                pd.dismiss();
+            }
+            newData.renameTo(newDataXML);
+        }
+    }
 
     public static Universe getUniverse(Context context) throws ParserConfigurationException,
             SAXException, IOException {
         if (sUniverse == null) {
+            String version;
             Universe newUniverse = new Universe();
             AssetManager am = context.getAssets();
             InputStream is = am.open("data.xml");
             DataLoader loader = new DataLoader(newUniverse, is);
             loader.load();
+            version = loader.dataVersion;
+            sVersion = version;
             sUniverse = newUniverse;
+            File dataDir = context.getFilesDir();
+            File newData = new File(dataDir + "/data.xml");
+            if (newData.exists()) {
+                is = new FileInputStream(newData);
+                loader = new DataLoader(newUniverse, is);
+                loader.load();
+                if (loader.dataVersion.compareTo(version) > 0) {
+                    sVersion = loader.dataVersion;
+                    sUniverse = newUniverse;
+                } else {
+                    newData.delete();
+                    is = am.open("data.xml");
+                    loader = new DataLoader(newUniverse, is);
+                    loader.load();
+                }
+            }
         }
         return sUniverse;
+    }
+
+    public String getVersion() {
+        return sVersion;
+    }
+
+    public void installUpdate(Context context, Activity activity) {
+        DownloadUpdate downloadUpdate = new DownloadUpdate();
+        downloadUpdate.activity = activity;
+        downloadUpdate.context = context;
+        downloadUpdate.execute();
     }
 
     public Universe() {
@@ -133,13 +261,32 @@ public class Universe {
             inputStream.close();
         } catch (Exception e) {
             worked = false;
+            Log.e("spacedock","Error loading data:" + e.getMessage());
         }
 
         if (!worked) {
             File stashDir = Environment
                     .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
             File brokenFile = new File(stashDir, "broken.spacedocksquads");
-            allSquadsFile.renameTo(brokenFile);
+            if(!allSquadsFile.renameTo(brokenFile)) {
+                File sharedSquads = new File(context.getFilesDir(), "shared_squads");
+                brokenFile = new File(sharedSquads, "broken.spacedocksquads");
+                InputStream in = new FileInputStream(allSquadsFile);
+                OutputStream out = new FileOutputStream(brokenFile);
+                byte[] buf = new byte[1024];
+                int len;
+                try {
+                    while ((len = in.read(buf)) > 0) {
+                        out.write(buf, 0, len);
+                    }
+                    in.close();
+                    out.close();
+                } catch (Exception e) {
+                    allSquadsFile.renameTo(brokenFile);
+                    Log.e("spacedock", "Could not copy bad squads, had to rename it.");
+                }
+            }
+            Log.e("spacedock", "Renamed file to" + brokenFile.getAbsolutePath());
         }
         Collections.sort(mSquads, new SquadComparator());
         return worked;
@@ -407,6 +554,8 @@ public class Universe {
                 placeholder = new Admiral();
             } else if (upType.equals("Squadron")) {
                 placeholder = new Squadron();
+            } else if (upType.equals("Officer")) {
+                placeholder = new Officer();
             } else {
                 return null; // placeholder type not supported
             }
@@ -522,14 +671,25 @@ public class Universe {
             throw new IllegalArgumentException();
 
         ArrayList<Upgrade> matchingUpgrades = new ArrayList<Upgrade>();
-        for (Upgrade upgrade : upgrades.values()) {
-            if (!isMemberOfIncludedSet(upgrade)) {
-                continue;
+        if (upType == "Officer") {
+            for (Officer officer : mOfficers.values()) {
+                if (!isMemberOfIncludedSet(officer)) {
+                    continue;
+                }
+                if (faction.equals(officer.getFaction()) || faction.equals(officer.getAdditionalFaction())) {
+                    matchingUpgrades.add(officer);
+                }
             }
-            if ((upType == null || upgrade.getUpType().equals(upType))
-                    && (faction.equals(upgrade.getFaction())
-                    || faction.equals(upgrade.getAdditionalFaction()))) {
-                matchingUpgrades.add(upgrade);
+        } else {
+            for (Upgrade upgrade : upgrades.values()) {
+                if (!isMemberOfIncludedSet(upgrade)) {
+                    continue;
+                }
+                if ((upType == null || upgrade.getUpType().equals(upType))
+                        && (faction.equals(upgrade.getFaction())
+                        || faction.equals(upgrade.getAdditionalFaction()))) {
+                    matchingUpgrades.add(upgrade);
+                }
             }
         }
         Collections.sort(matchingUpgrades, new UpgradeComparitor());
@@ -661,5 +821,4 @@ public class Universe {
         Collections.sort(referenceItemsCopy, new ReferenceComparator());
         return referenceItemsCopy;
     }
-
 }

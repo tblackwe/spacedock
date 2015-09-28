@@ -10,43 +10,39 @@
     <Type>Captain</Type>
     <Faction>Federation</Faction>
     <Cost>0</Cost>
-    <Id>federation_72011</Id>
-    <Set>72011</Set>
+    <Id>federation_72014</Id>
+    <Set>72014</Set>
     <Special></Special>
   </Captain>
   <Captain>
-    <Title>Benjamin Maxwell</Title>
-    <Ability>When attacking a ship with one of your secondary weapons, during the Modify Attack Dice step, you may re-roll and 1 of your Attack dice.</Ability>
+    <Title>Tom Paris</Title>
+    <Ability>If you reveal a 3 [STRAIGHT] Maneuver, you may perform a 4 [STRAIGHT] Maneuver instead. If you do so, place an Auxiliary Power Token beside your ship. If this card is assigned to a shuttlecraft, you cannot perform a "Docking" Action on the round you use this ability.</Ability>
     <Unique>Y</Unique>
     <MirrorUniverseUnique>N</MirrorUniverseUnique>
-    <Skill>6</Skill>
-    <Talent>1</Talent>
-    <Attack></Attack>
-    <Range></Range>
-    <Type>Captain</Type>
-    <Faction>Federation</Faction>
-    <Cost>4</Cost>
-    <Id>benjamin_maxwell_72011</Id>
-    <Set>72011</Set>
-    <Special></Special>
-  </Captain>
-  <Captain>
-    <Title>Haden</Title>
-    <Ability>ACTION: Target a ship at Range 1-2 that does not have your ship in its forward firing arc. If you attack that ship this round, gain +1 attack die and roll 1 less defense die.</Ability>
-    <Unique>Y</Unique>
-    <MirrorUniverseUnique>N</MirrorUniverseUnique>
-    <Skill>2</Skill>
+    <Skill>4</Skill>
     <Talent>0</Talent>
     <Attack></Attack>
     <Range></Range>
     <Type>Captain</Type>
     <Faction>Federation</Faction>
-    <Cost>1</Cost>
-    <Id>haden_cap_72011</Id>
-    <Set>72011</Set>
+    <Cost>2</Cost>
+    <Id>tom_paris_72014</Id>
+    <Set>72014</Set>
     <Special></Special>
-    <AdmiralAbility>FLEET ACTION: Target a ship at Range 1-2 that does not have your ship in its forward firing arc. If you attack that ship this round, gain +1 attack die and roll 1 less defense die.</AdmiralAbility>
-    <AdmiralCost>1</AdmiralCost>
-    <AdmiralTalent>0</AdmiralTalent>
-    <SkillModifier>1</SkillModifier>
+  </Captain>
+  <Captain>
+    <Title>Tuvok</Title>
+    <Ability>Add 1 [TECH] Upgrade to your Upgrade Bar. That Upgrade costs -1 SP.</Ability>
+    <Unique>Y</Unique>
+    <MirrorUniverseUnique>N</MirrorUniverseUnique>
+    <Skill>5</Skill>
+    <Talent>0</Talent>
+    <Attack></Attack>
+    <Range></Range>
+    <Type>Captain</Type>
+    <Faction>Federation</Faction>
+    <Cost>3</Cost>
+    <Id>tuvok_72014</Id>
+    <Set>72014</Set>
+    <Special>Yes</Special>
   </Captain>
